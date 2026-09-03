@@ -1,27 +1,49 @@
-1. FOUND COUNTRIES
+1. DUPLICATE CLAIMS (Multiple people per country)
+------------------------------
+1. Belgium --> IDs: snaranjo19, alexisharing
+2. Germany --> IDs: Hayden-Albrecht, Adgo2610-ai
+3. Japan --> IDs: nhartawan, Bacolo12
+4. Norway --> IDs: davemattcsu, Isaac-Nelson
+5. Sweden --> IDs: GrantWooley, barretthazen-cyber
+6. United Kingdom --> IDs: Intality, finndotexe
+
+
+2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)
+------------------------------
+1. Bosnia & Herzegovina
+2. Czech Republic
+3. France
+4. Hong Kong
+5. Russia
+6. South Korea
+7. United Kingdom
+8. Vietnam
+
+
+3. TAKEN COUNTRIES
 ------------------------------
 1. Albania --> lisyderm
 2. Australia --> mattyonka
 3. Austria --> alyssakbennett
 4. Bahamas --> tuythoven
 5. Barbados --> rcarpen1124
-6. Belgium --> snaranjo19
+6. Belgium --> snaranjo19, alexisharing
 7. Bhutan --> awwad529
 8. Cambodia --> sambrossard
 9. Canada --> miloskud
 10. Egypt --> Jordangama95
-11. Germany --> Hayden-Albrecht
+11. Germany --> Hayden-Albrecht, Adgo2610-ai
 12. Iceland --> Owen-Pendleton
 13. Ireland --> isaacruss
 14. Jamaica --> pablodos
-15. Japan --> nhartawan
+15. Japan --> nhartawan, Bacolo12
 16. Madagascar --> jaylinwhite
 17. Mexico --> twistedcat767
 18. Morocco --> acapasso90
 19. Namibia --> mburns45
 20. Netherlands --> NickCasillas
 21. New Zealand --> oliviamcjunkins
-22. Norway --> davemattcsu
+22. Norway --> davemattcsu, Isaac-Nelson
 23. Peru --> pinecakes
 24. Philippines --> aeserro
 25. Poland --> kacperm37
@@ -29,7 +51,7 @@
 27. Romania --> Hugelham
 28. Slovakia --> tabcher
 29. Slovenia --> Leafyuw
-30. Sweden --> GrantWooley
+30. Sweden --> GrantWooley, barretthazen-cyber
 31. Switzerland --> liamsagal18
 32. Thailand --> JaydenYang-COLOSTATE
 33. Uganda --> zaneKauffman
@@ -37,7 +59,7 @@
 35. Zimbabwe --> chelseaHansen
 
 
-2. UNCLAIMED COUNTRIES
+4. AVAILABLE COUNTRIES
 ------------------------------
 1. Åland Islands
 2. Algeria
@@ -252,25 +274,3 @@
 211. Wallis and Futuna Islands
 212. Western Sahara (disputed)
 213. Yemen
-
-
-3. DUPLICATE CLAIMS (Multiple people per country)
-------------------------------
-1. Belgium --> IDs: snaranjo19, alexisharing
-2. Germany --> IDs: Hayden-Albrecht, Adgo2610-ai
-3. Japan --> IDs: nhartawan, Bacolo12
-4. Norway --> IDs: davemattcsu, Isaac-Nelson
-5. Sweden --> IDs: GrantWooley, barretthazen-cyber
-6. United Kingdom --> IDs: Intality, finndotexe
-
-
-4. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)
-------------------------------
-1. Bosnia & Herzegovina
-2. Czech Republic
-3. France
-4. Hong Kong
-5. Russia
-6. South Korea
-7. United Kingdom
-8. Vietnam
