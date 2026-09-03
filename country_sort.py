@@ -34,7 +34,7 @@ def load_private_reference_data():
 
 
 def process_countries(csv_path, reference_data):
-    """Reads the CSV and JSON, matches them, flags duplicates, and writes a comprehensive text report."""
+    """Reads the CSV and JSON, matches them, flags duplicates, and writes an anonymized text report."""
     places = reference_data.get("places", [])
 
     # 1. Load CSV countries into a set and tracking dictionary
@@ -65,27 +65,23 @@ def process_countries(csv_path, reference_data):
                 json_claims[clean_c] = []
             json_claims[clean_c].append({"id": p_id, "original_name": c_name.strip()})
 
-    # 3. Categorize data
-    matched_rows = []
+    # 3. Categorize data (storing only country names, stripping individual IDs)
+    matched_countries = []
     unclaimed_rows = []
-    duplicate_rows = []
+    duplicate_countries = []
     unmatched_json_rows = []
 
     # Check CSV countries against JSON claims (Taken Countries)
     for clean_c, orig_name in csv_original_names.items():
         if clean_c in json_claims:
-            claims = json_claims[clean_c]
-            # List all IDs taken for this country
-            all_ids = ", ".join([c["id"] for c in claims])
-            matched_rows.append({"country": orig_name, "ids": all_ids})
+            matched_countries.append(orig_name)
         else:
             unclaimed_rows.append(orig_name)
 
     # Check for duplicates (> 1 claim in JSON)
     for clean_c, claims in json_claims.items():
         if len(claims) > 1:
-            ids = ", ".join([c["id"] for c in claims])
-            duplicate_rows.append({"country": claims[0]["original_name"], "ids": ids})
+            duplicate_countries.append(claims[0]["original_name"])
 
     # Check for JSON countries that are NOT in the CSV
     for clean_c, claims in json_claims.items():
@@ -97,7 +93,7 @@ def process_countries(csv_path, reference_data):
         "%Y-%m-%d %H:%M"
     )
 
-    # 4. Write the structured report to a text file in the requested order
+    # 4. Write the structured report to a text file
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
         # Timestamp Header
         outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
@@ -106,9 +102,9 @@ def process_countries(csv_path, reference_data):
         # Section 1: Duplicate Claims (Top)
         outfile.write("1. DUPLICATE CLAIMS (Multiple people per country)\n")
         outfile.write("-" * 30 + "\n")
-        if duplicate_rows:
-            for idx, item in enumerate(duplicate_rows, start=1):
-                outfile.write(f"{idx}. {item['country']} --> IDs: {item['ids']}\n")
+        if duplicate_countries:
+            for idx, country in enumerate(duplicate_countries, start=1):
+                outfile.write(f"{idx}. {country}\n")
         else:
             outfile.write("None found.\n")
 
@@ -124,8 +120,8 @@ def process_countries(csv_path, reference_data):
         # Section 3: Taken Countries (Found)
         outfile.write("\n\n3. TAKEN COUNTRIES\n")
         outfile.write("-" * 30 + "\n")
-        for idx, item in enumerate(matched_rows, start=1):
-            outfile.write(f"{idx}. {item['country']} --> {item['ids']}\n")
+        for idx, country in enumerate(matched_countries, start=1):
+            outfile.write(f"{idx}. {country}\n")
 
         # Section 4: Available Countries (Unclaimed - Bottom)
         outfile.write("\n\n4. AVAILABLE COUNTRIES\n")
@@ -133,7 +129,7 @@ def process_countries(csv_path, reference_data):
         for idx, country in enumerate(unclaimed_rows, start=1):
             outfile.write(f"{idx}. {country}\n")
 
-    print(f"\nProcessing complete! Saved detailed report to '{output_txt_path}'.")
+    print(f"\nProcessing complete! Saved anonymized report to '{output_txt_path}'.")
 
 
 if __name__ == "__main__":
