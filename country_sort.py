@@ -5,7 +5,7 @@ import os
 import urllib.request
 
 # GitHub API URL for the file (not the raw.githubusercontent URL)
-api_url = "https://github.com/CSU-CS-314-Fall-2026/students/blob/main/test/brews/wwbrews.json"
+api_url = "https://api.github.com/repos/CSU-CS-314-Fall-2026/students/contents/test/brews/wwbrews.json?ref=main"
 
 input_csv_path = "countries.csv"
 output_txt_path = "ww_brew_report.txt"
