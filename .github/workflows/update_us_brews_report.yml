@@ -1,0 +1,30 @@
+name: Live US Brews Checker
+
+on:
+  workflow_dispatch:      # manually trigger or scheduled via external
+
+jobs:
+  run-checker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows committing the updated report back to your repo
+    steps:
+    
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Run check script
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: python us_sorter.py
+
+    - name: Commit and push changes if updated
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto-update brews report [skip ci]"
+        file_pattern: us_brew_report.txt
