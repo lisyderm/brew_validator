@@ -1,31 +1,31 @@
-Most Recent Run : 2026-09-03 12:11 MT
+Most Recent Run : 2026-09-03 12:18 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at '8-Bit Aleworks' (Location: Avondale, Arizona follows Austin, Texas)
 ============================================================
 
-1. DUPLICATE MUNICIPALITIES (Multiple breweries in the same City & State)
+1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
 --------------------------------------------------
-1. Los Angeles, California:
-   - Benny Boy Brewing (ID: twistedcat767)
-   - Golden Road Brewing Los Angeles (ID: tuythoven)
+1. Los Angeles, California [Conflict (Multiple Users)]:
+   - Benny Boy Brewing
+   - Golden Road Brewing Los Angeles
 
-2. Fort Collins, Colorado:
-   - New Belgium Brewing Company (ID: davemattcsu)
-   - New Belgium Brewing Company (ID: davemattcsu)
+2. Fort Collins, Colorado [Duplicate Entry (Same User)]:
+   - New Belgium Brewing Company
+   - New Belgium Brewing Company
 
-3. Petaluma, California:
-   - Lagunitas Brewing Company (ID: alexisharing)
-   - Lagunitas Brewing Company (ID: alexisharing)
+3. Petaluma, California [Duplicate Entry (Same User)]:
+   - Lagunitas Brewing Company
+   - Lagunitas Brewing Company
 
-4. Chicago, Illinois:
-   - Midwest Coast Brewing Company (ID: NickCasillas)
-   - Crushed By Giants Brewing Company (ID: kacperm37)
+4. Chicago, Illinois [Conflict (Multiple Users)]:
+   - Midwest Coast Brewing Company
+   - Crushed By Giants Brewing Company
 
-5. Fargo, North Dakota:
-   - Drekker Brewing Company (ID: pablodos)
-   - Drekker Brewing Company (ID: Owen-Pendleton)
+5. Fargo, North Dakota [Conflict (Multiple Users)]:
+   - Drekker Brewing Company
+   - Drekker Brewing Company
 
-6. San Francisco, California:
-   - San Francisco Brewing Co. (ID: Saad05Ali)
-   - San Francisco Brewing Co. (ID: Saad05Ali)
+6. San Francisco, California [Duplicate Entry (Same User)]:
+   - San Francisco Brewing Co.
+   - San Francisco Brewing Co.
 
