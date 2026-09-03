@@ -5,12 +5,15 @@ on:
     - cron: '*/20 * * * *'  
   workflow_dispatch:      # manually trigger
 
+
+
 jobs:
   run-checker:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Allows committing the updated report back to your repo
     steps:
+    
     - name: Checkout repository
       uses: actions/checkout@v4
 
@@ -20,6 +23,8 @@ jobs:
         python-version: '3.10'
 
     - name: Run check script
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
       run: python country_sort.py
 
     - name: Commit and push changes if updated

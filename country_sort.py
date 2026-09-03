@@ -1,22 +1,43 @@
+import base64
 import csv
 import json
+import os
 import urllib.request
 
+# GitHub API URL for the file (not the raw.githubusercontent URL)
+api_url = "https://github.com/CSU-CS-314-Fall-2026/students/blob/main/test/brews/wwbrews.json"
 
-# json_file_path = "wwbrews.json"
 input_csv_path = "countries.csv"
 output_txt_path = "ww_brew_report.txt"
 
-url = "https://github.com/CSU-CS-314-Fall-2026/students/blob/main/test/brews/wwbrews.json"
 
+def load_private_reference_data():
+    """Fetches the private file from GitHub using an API token."""
+    token = os.environ.get("GH_PAT")  # Pulls the secret from environment variables
 
-def load_remote_reference_data(json_url):
+    req = urllib.request.Request(api_url)
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    req.add_header("Accept", "application/vnd.github.v3+json")
+
     try:
-        with urllib.request.urlopen(json_url) as response:
-            return json.loads(response.read().decode())
+        with urllib.request.urlopen(req) as response:
+            api_data = json.loads(response.read().decode())
+            # The GitHub API returns file content base64 encoded
+            file_content = base64.b64decode(api_data["content"]).decode("utf-8")
+            return json.loads(file_content)
     except Exception as e:
-        print(f"Error fetching data: {e}")
+        print(f"Error fetching private data: {e}")
         return None
+
+
+# def load_remote_reference_data(json_url):
+#     try:
+#         with urllib.request.urlopen(json_url) as response:
+#             return json.loads(response.read().decode())
+#     except Exception as e:
+#         print(f"Error fetching data: {e}")
+#         return None
 
 
 # def load_local_reference_data(file_path):
@@ -127,7 +148,7 @@ def process_countries(csv_path, reference_data):
 
 if __name__ == "__main__":
     print("Loading local reference data...")
-    ref_data = load_remote_reference_data(url)
+    ref_data = load_private_reference_data()
 
     if ref_data:
         process_countries(input_csv_path, ref_data)
