@@ -102,7 +102,7 @@ def process_countries(csv_path, reference_data):
             outfile.write("None found.\n")
 
         # Section 2: Unmatched JSON
-        outfile.write("\n\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)\n")
+        outfile.write("\n\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme.csv)\n")
         outfile.write("-" * 30 + "\n")
         if unmatched_json_rows:
             for idx, country in enumerate(unmatched_json_rows, start=1):
