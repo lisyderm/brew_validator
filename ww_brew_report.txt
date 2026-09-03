@@ -8,7 +8,8 @@
 6. United Kingdom --> IDs: Intality, finndotexe
 
 
-2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme.csv)
+2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
+List includes common name variants to match list entries through 8am Sept 3rd
 ------------------------------
 None found.
 
