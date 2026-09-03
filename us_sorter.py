@@ -8,7 +8,7 @@ import urllib.request
 # GitHub API URL for usbrews.json
 api_url = "https://api.github.com/repos/CSU-CS-314-Fall-2026/students/contents/test/brews/usbrews.json?ref=main"
 
-output_txt_path = "usb_brew_report.txt"
+output_txt_path = "us_brew_report.txt"
 
 
 def load_and_lint_private_reference_data():
