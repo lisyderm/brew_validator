@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-03 12:15 MT
+Most Recent Run : 2026-09-03 12:20 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Complexo Bohemia' (Country: 'Brazil' follows 'Guatemala')
 ============================================================
@@ -8,9 +8,10 @@ JSON Order Check: Order breaks down at 'Complexo Bohemia' (Country: 'Brazil' fol
 1. Belgium
 2. Canada
 3. Germany
-4. Japan
-5. Sweden
-6. United Kingdom
+4. Indonesia
+5. Japan
+6. Sweden
+7. United Kingdom
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
