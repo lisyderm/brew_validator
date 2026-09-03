@@ -1,6 +1,7 @@
 import base64
 import csv
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import json
 import os
 import urllib.request
@@ -91,13 +92,15 @@ def process_countries(csv_path, reference_data):
         if clean_c not in csv_countries:
             unmatched_json_rows.append(claims[0]["original_name"])
 
-    # Generate current timestamp
-    run_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # Generate current timestamp in Mountain Time
+    run_timestamp = datetime.now(ZoneInfo("America/Denver")).strftime(
+        "%Y-%m-%d %H:%M"
+    )
 
     # 4. Write the structured report to a text file in the requested order
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
         # Timestamp Header
-        outfile.write(f"Most Recent Run : {run_timestamp}\n")
+        outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
         outfile.write("=" * 40 + "\n\n")
 
         # Section 1: Duplicate Claims (Top)
