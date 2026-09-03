@@ -1,23 +1,35 @@
 import csv
 import json
+import urllib.request
 
-# 1. File paths for your local files
-json_file_path = "wwbrews.json"
+
+# json_file_path = "wwbrews.json"
 input_csv_path = "countries.csv"
-output_txt_path = "countries_report_num_cats.txt"
+output_txt_path = "ww_brew_report.txt"
+
+url = "https://github.com/CSU-CS-314-Fall-2026/students/blob/main/test/brews/wwbrews.json"
 
 
-def load_local_reference_data(file_path):
-    """Loads and parses the JSON reference data from a local file."""
+def load_remote_reference_data(json_url):
     try:
-        with open(file_path, mode="r", encoding="utf-8") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        print(f"Error: Could not find the reference JSON file at '{file_path}'.")
+        with urllib.request.urlopen(json_url) as response:
+            return json.loads(response.read().decode())
+    except Exception as e:
+        print(f"Error fetching data: {e}")
         return None
-    except json.JSONDecodeError:
-        print(f"Error: '{file_path}' is not a valid JSON file.")
-        return None
+
+
+# def load_local_reference_data(file_path):
+#     """Loads and parses the JSON reference data from a local file."""
+#     try:
+#         with open(file_path, mode="r", encoding="utf-8") as file:
+#             return json.load(file)
+#     except FileNotFoundError:
+#         print(f"Error: Could not find the reference JSON file at '{file_path}'.")
+#         return None
+#     except json.JSONDecodeError:
+#         print(f"Error: '{file_path}' is not a valid JSON file.")
+#         return None
 
 
 def process_countries(csv_path, reference_data):
@@ -115,7 +127,7 @@ def process_countries(csv_path, reference_data):
 
 if __name__ == "__main__":
     print("Loading local reference data...")
-    ref_data = load_local_reference_data(json_file_path)
+    ref_data = load_remote_reference_data(url)
 
     if ref_data:
         process_countries(input_csv_path, ref_data)
