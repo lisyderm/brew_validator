@@ -1,12 +1,12 @@
-Most Recent Run : 2026-09-03 11:25 MT
+Most Recent Run : 2026-09-03 11:30 MT
 ========================================
 
 1. DUPLICATE CLAIMS (Multiple people per country)
 ------------------------------
-1. Belgium --> IDs: snaranjo19, alexisharing
-2. Japan --> IDs: nhartawan, Bacolo12
-3. Sweden --> IDs: GrantWooley, barretthazen-cyber
-4. United Kingdom --> IDs: Intality, finndotexe
+1. Belgium
+2. Japan
+3. Sweden
+4. United Kingdom
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
@@ -17,54 +17,54 @@ None found.
 
 3. TAKEN COUNTRIES
 ------------------------------
-1. Albania --> lisyderm
-2. Argentina --> Isaac-Nelson
-3. Armenia --> patrick-kearney-2006
-4. Australia --> mattyonka
-5. Austria --> alyssakbennett
-6. Bahamas --> tuythoven
-7. Barbados --> rcarpen1124
-8. Belgium --> snaranjo19, alexisharing
-9. Bhutan --> awwad529
-10. Bosnia & Herzegovina --> CSUAngel28
-11. Brazil --> phntml
-12. Canada --> vertumnal
-13. Hong Kong --> Andyhim
-14. Denmark --> norabusbate
-15. Estonia --> jmartinez-04
-16. Finland --> mattboersma18
-17. Germany --> Adgo2610-ai
-18. Iceland --> Owen-Pendleton
-19. Ireland --> isaacruss
-20. Italy --> Calvin375
-21. Jamaica --> pablodos
-22. Japan --> nhartawan, Bacolo12
-23. Madagascar --> jaylinwhite
-24. Mexico --> twistedcat767
-25. Monaco --> mayurb
-26. Morocco --> acapasso90
-27. Namibia --> mburns45
-28. Netherlands --> NickCasillas
-29. New Zealand --> oliviamcjunkins
-30. Norway --> davemattcsu
-31. Peru --> pinecakes
-32. Philippines --> aeserro
-33. Poland --> kacperm37
-34. Portugal --> widelo
-35. Puerto Rico --> Tulawos
-36. South Korea --> RyanTrinh2
-37. Romania --> Hugelham
-38. Russia --> Mrwood223
-39. Slovakia --> tabcher
-40. Slovenia --> Leafyuw
-41. Sweden --> GrantWooley, barretthazen-cyber
-42. Switzerland --> liamsagal18
-43. Thailand --> JaydenYang-COLOSTATE
-44. Uganda --> zaneKauffman
-45. United Kingdom --> Intality, finndotexe
-46. VietNam --> Just-Sean
-47. Zambia --> YL626
-48. Zimbabwe --> chelseaHansen
+1. Albania
+2. Argentina
+3. Armenia
+4. Australia
+5. Austria
+6. Bahamas
+7. Barbados
+8. Belgium
+9. Bhutan
+10. Bosnia & Herzegovina
+11. Brazil
+12. Canada
+13. Hong Kong
+14. Denmark
+15. Estonia
+16. Finland
+17. Germany
+18. Iceland
+19. Ireland
+20. Italy
+21. Jamaica
+22. Japan
+23. Madagascar
+24. Mexico
+25. Monaco
+26. Morocco
+27. Namibia
+28. Netherlands
+29. New Zealand
+30. Norway
+31. Peru
+32. Philippines
+33. Poland
+34. Portugal
+35. Puerto Rico
+36. South Korea
+37. Romania
+38. Russia
+39. Slovakia
+40. Slovenia
+41. Sweden
+42. Switzerland
+43. Thailand
+44. Uganda
+45. United Kingdom
+46. VietNam
+47. Zambia
+48. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
