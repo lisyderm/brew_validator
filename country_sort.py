@@ -13,8 +13,8 @@ input_csv_path = "countries_un_geoscheme_COMMON_NAMES.csv"
 output_txt_path = "ww_brew_report.txt"
 
 
-def load_private_reference_data():
-    """Fetches the private file from GitHub using an API token."""
+def load_and_lint_private_reference_data():
+    """Fetches the private file from GitHub and validates its JSON syntax (like JSONLint)."""
     token = os.environ.get("GH_PAT")  # Pulls the secret from environment variables
 
     req = urllib.request.Request(api_url)
@@ -25,15 +25,23 @@ def load_private_reference_data():
     try:
         with urllib.request.urlopen(req) as response:
             api_data = json.loads(response.read().decode())
-            # The GitHub API returns file content base64 encoded
             file_content = base64.b64decode(api_data["content"]).decode("utf-8")
-            return json.loads(file_content)
+
+        # Perform JSON Lint / Syntax Check
+        try:
+            parsed_json = json.loads(file_content)
+            lint_status = "JSON Syntax Check (JSONLint): PASSED (Valid JSON)"
+            return parsed_json, lint_status
+        except json.JSONDecodeError as jde:
+            lint_status = f"JSON Syntax Check (JSONLint): FAILED -> {jde}"
+            return None, lint_status
+
     except Exception as e:
-        print(f"Error fetching private data: {e}")
-        return None
+        lint_status = f"JSON Fetch Error: {e}"
+        return None, lint_status
 
 
-def process_countries(csv_path, reference_data):
+def process_countries(csv_path, reference_data, lint_status):
     """Reads the CSV and JSON, matches them, flags duplicates, and writes an anonymized text report."""
     places = reference_data.get("places", [])
 
@@ -118,8 +126,9 @@ def process_countries(csv_path, reference_data):
 
     # 5. Write the structured report to a text file
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
-        # Header with Timestamp and Alphabetical Check
+        # Header with Timestamp, JSONLint status, and Alphabetical Check
         outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
+        outfile.write(f"{lint_status}\n")
         outfile.write(f"{alphabetical_check_msg}\n")
         outfile.write("=" * 60 + "\n\n")
 
@@ -157,8 +166,10 @@ def process_countries(csv_path, reference_data):
 
 
 if __name__ == "__main__":
-    print("Loading remote reference data via API...")
-    ref_data = load_private_reference_data()
+    print("Loading and linting remote reference data via API...")
+    ref_data, lint_status = load_and_lint_private_reference_data()
 
     if ref_data:
-        process_countries(input_csv_path, ref_data)
+        process_countries(input_csv_path, ref_data, lint_status)
+    else:
+        print(f"Aborting process due to error: {lint_status}")
