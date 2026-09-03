@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-03 12:00 MT
+Most Recent Run : 2026-09-03 12:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Complexo Bohemia' (Country: 'Brazil' follows 'Germany')
 ============================================================
@@ -67,14 +67,15 @@ None found.
 44. Russia
 45. Slovakia
 46. Slovenia
-47. Sweden
-48. Switzerland
-49. Thailand
-50. Uganda
-51. United Kingdom
-52. VietNam
-53. Zambia
-54. Zimbabwe
+47. South Sudan
+48. Sweden
+49. Switzerland
+50. Thailand
+51. Uganda
+52. United Kingdom
+53. VietNam
+54. Zambia
+55. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
@@ -241,35 +242,34 @@ None found.
 160. Somalia
 161. South Africa
 162. South Georgia and the South Sandwich Islands
-163. South Sudan
-164. Spain
-165. Sri Lanka
-166. State of Palestine
-167. Sudan
-168. Suriname
-169. Svalbard and Jan Mayen Islands
-170. Syrian Arab Republic
-171. Tajikistan
-172. Timor-Leste [East Timor]
-173. Togo
-174. Tokelau
-175. Tonga
-176. Trinidad and Tobago
-177. Tunisia
-178. Türkiye
-179. Turkmenistan
-180. Turks and Caicos Islands
-181. Tuvalu
-182. Ukraine
-183. United Arab Emirates
-184. United Republic of Tanzania
-185. United States Minor Outlying Islands
-186. United States of America
-187. United States Virgin Islands
-188. Uruguay
-189. Uzbekistan
-190. Vanuatu
-191. Venezuela (Bolivarian Republic of)
-192. Wallis and Futuna Islands
-193. Western Sahara (disputed)
-194. Yemen
+163. Spain
+164. Sri Lanka
+165. State of Palestine
+166. Sudan
+167. Suriname
+168. Svalbard and Jan Mayen Islands
+169. Syrian Arab Republic
+170. Tajikistan
+171. Timor-Leste [East Timor]
+172. Togo
+173. Tokelau
+174. Tonga
+175. Trinidad and Tobago
+176. Tunisia
+177. Türkiye
+178. Turkmenistan
+179. Turks and Caicos Islands
+180. Tuvalu
+181. Ukraine
+182. United Arab Emirates
+183. United Republic of Tanzania
+184. United States Minor Outlying Islands
+185. United States of America
+186. United States Virgin Islands
+187. Uruguay
+188. Uzbekistan
+189. Vanuatu
+190. Venezuela (Bolivarian Republic of)
+191. Wallis and Futuna Islands
+192. Western Sahara (disputed)
+193. Yemen
