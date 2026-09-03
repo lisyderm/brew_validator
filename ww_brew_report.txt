@@ -1,0 +1,217 @@
+1. FOUND COUNTRIES
+------------------------------
+1. Albania --> lisyderm
+2. Australia --> mattyonka
+3. Austria --> alyssakbennett
+4. Bahamas --> tuythoven
+5. Barbados --> rcarpen1124
+6. Belgium --> snaranjo19
+7. Bhutan --> awwad529
+8. Bosnia & Herzegovina --> CSUAngel28
+9. Cambodia --> sambrossard
+10. Canada --> miloskud
+11. Czech Republic --> CSUJacob
+12. Egypt --> Jordangama95
+13. France --> AbdoulKadre
+14. Germany --> Hayden-Albrecht
+15. Hong Kong --> Andyhim
+16. Iceland --> Owen-Pendleton
+17. Ireland --> isaacruss
+18. Jamaica --> pablodos
+19. Japan --> nhartawan
+20. Latvia --> LarryOrnelas06
+21. Mexico --> twistedcat767
+22. Morocco --> acapasso90
+23. Namibia --> mburns45
+24. Netherlands --> NickCasillas
+25. New Zealand --> oliviamcjunkins
+26. Norway --> davemattcsu
+27. Peru --> pinecakes
+28. Philippines --> aeserro
+29. Poland --> kacperm37
+30. Romania --> Hugelham
+31. Russia --> Mrwood223
+32. Slovakia --> tabcher
+33. Slovenia --> Leafyuw
+34. South Korea --> RyanTrinh2
+35. Sweden --> GrantWooley
+36. Switzerland --> liamsagal18
+37. Thailand --> JaydenYang-COLOSTATE
+38. Uganda --> zaneKauffman
+39. United Kingdom --> Intality
+40. Vietnam --> Just-Sean
+41. Zambia --> YL626
+42. Zimbabwe --> chelseaHansen
+
+
+2. UNCLAIMED COUNTRIES
+------------------------------
+1. Afghanistan
+2. Algeria
+3. Andorra
+4. Angola
+5. Antigua and Barbuda
+6. Argentina
+7. Armenia
+8. Azerbaijan
+9. Bahrain
+10. Bangladesh
+11. Belarus
+12. Belize
+13. Benin
+14. Bolivia
+15. Botswana
+16. Brazil
+17. Brunei
+18. Bulgaria
+19. Burkina Faso
+20. Burundi
+21. Cabo Verde
+22. Cameroon
+23. Central African Republic
+24. Chad
+25. Chile
+26. China
+27. Colombia
+28. Comoros
+29. Congo (Congo-Brazzaville)
+30. Costa Rica
+31. Côte d'Ivoire
+32. Croatia
+33. Cuba
+34. Cyprus
+35. Democratic Republic of the Congo
+36. Denmark
+37. Djibouti
+38. Dominica
+39. Dominican Republic
+40. Ecuador
+41. El Salvador
+42. Equatorial Guinea
+43. Eritrea
+44. Estonia
+45. Eswatini (fmr. ""Swaziland"")
+46. Ethiopia
+47. Fiji
+48. Finland
+49. Gabon
+50. Gambia
+51. Georgia
+52. Ghana
+53. Greece
+54. Grenada
+55. Guatemala
+56. Guinea
+57. Guinea-Bissau
+58. Guyana
+59. Haiti
+60. Holy See
+61. Honduras
+62. Hungary
+63. India
+64. Indonesia
+65. Iran
+66. Iraq
+67. Israel
+68. Italy
+69. Jordan
+70. Kazakhstan
+71. Kenya
+72. Kiribati
+73. Kuwait
+74. Kyrgyzstan
+75. Laos
+76. Lebanon
+77. Lesotho
+78. Liberia
+79. Libya
+80. Liechtenstein
+81. Lithuania
+82. Luxembourg
+83. Madagascar
+84. Malawi
+85. Malaysia
+86. Maldives
+87. Mali
+88. Malta
+89. Marshall Islands
+90. Mauritania
+91. Mauritius
+92. Micronesia
+93. Moldova
+94. Monaco
+95. Mongolia
+96. Montenegro
+97. Mozambique
+98. Myanmar (formerly Burma)
+99. Nauru
+100. Nepal
+101. Nicaragua
+102. Niger
+103. Nigeria
+104. North Korea
+105. North Macedonia
+106. Oman
+107. Pakistan
+108. Palau
+109. Palestine State
+110. Panama
+111. Papua New Guinea
+112. Paraguay
+113. Portugal
+114. Qatar
+115. Rwanda
+116. Saint Kitts and Nevis
+117. Saint Lucia
+118. Saint Vincent and the Grenadines
+119. Samoa
+120. San Marino
+121. Sao Tome and Principe
+122. Saudi Arabia
+123. Senegal
+124. Serbia
+125. Seychelles
+126. Sierra Leone
+127. Singapore
+128. Solomon Islands
+129. Somalia
+130. South Africa
+131. South Sudan
+132. Spain
+133. Sri Lanka
+134. Sudan
+135. Suriname
+136. Syria
+137. Tajikistan
+138. Tanzania
+139. Timor-Leste
+140. Togo
+141. Tonga
+142. Trinidad and Tobago
+143. Tunisia
+144. Turkey
+145. Turkmenistan
+146. Tuvalu
+147. Ukraine
+148. United Arab Emirates
+149. United States of America
+150. Uruguay
+151. Uzbekistan
+152. Vanuatu
+153. Venezuela
+154. Yemen
+
+
+3. DUPLICATE CLAIMS (Multiple people per country)
+------------------------------
+1. Belgium --> IDs: snaranjo19, alexisharing
+2. Germany --> IDs: Hayden-Albrecht, Adgo2610-ai
+3. Japan --> IDs: nhartawan, Bacolo12
+4. Norway --> IDs: davemattcsu, Isaac-Nelson
+5. Sweden --> IDs: GrantWooley, barretthazen-cyber
+6. United Kingdom --> IDs: Intality, finndotexe
+
+
+4. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)
+------------------------------
+1. Puerto Rico
