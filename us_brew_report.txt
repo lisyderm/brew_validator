@@ -1,35 +1,27 @@
-Most Recent Run : 2026-09-03 13:15 MT
+Most Recent Run : 2026-09-03 13:40 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at '8-Bit Aleworks' (Location: Avondale, Arizona follows Austin, Texas)
 ============================================================
 
 1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
 --------------------------------------------------
-1. Los Angeles, California [Conflict (Multiple Users)]:
-   - Benny Boy Brewing
-   - Golden Road Brewing Los Angeles
-
-2. Fort Collins, Colorado [Duplicate Entry (Same User)]:
+1. Fort Collins, Colorado [Duplicate Entry (Same User)]:
    - New Belgium Brewing Company
    - New Belgium Brewing Company
 
-3. Petaluma, California [Duplicate Entry (Same User)]:
+2. Petaluma, California [Duplicate Entry (Same User)]:
    - Lagunitas Brewing Company
    - Lagunitas Brewing Company
 
-4. Chicago, Illinois [Conflict (Multiple Users)]:
+3. Chicago, Illinois [Conflict (Multiple Users)]:
    - Midwest Coast Brewing Company
    - Crushed By Giants Brewing Company
 
-5. Fargo, North Dakota [Conflict (Multiple Users)]:
-   - Drekker Brewing Company
-   - Drekker Brewing Company
-
-6. San Francisco, California [Duplicate Entry (Same User)]:
+4. San Francisco, California [Duplicate Entry (Same User)]:
    - San Francisco Brewing Co.
    - San Francisco Brewing Co.
 
-7. Stowe, Vermont [Duplicate Entry (Same User)]:
+5. Stowe, Vermont [Duplicate Entry (Same User)]:
    - The Alchemist Brewery
    - The Alchemist Brewery
 
