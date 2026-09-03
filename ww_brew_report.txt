@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-03 09:35 MT
+Most Recent Run : 2026-09-03 09:40 MT
 ========================================
 
 1. DUPLICATE CLAIMS (Multiple people per country)
@@ -43,20 +43,21 @@ None found.
 24. Peru --> pinecakes
 25. Philippines --> aeserro
 26. Poland --> kacperm37
-27. Puerto Rico --> Tulawos
-28. South Korea --> RyanTrinh2
-29. Romania --> Hugelham
-30. Russia --> Mrwood223
-31. Slovakia --> tabcher
-32. Slovenia --> Leafyuw
-33. Sweden --> GrantWooley, barretthazen-cyber
-34. Switzerland --> liamsagal18
-35. Thailand --> JaydenYang-COLOSTATE
-36. Uganda --> zaneKauffman
-37. United Kingdom --> Intality, finndotexe
-38. VietNam --> Just-Sean
-39. Zambia --> YL626
-40. Zimbabwe --> chelseaHansen
+27. Portugal --> widelo
+28. Puerto Rico --> Tulawos
+29. South Korea --> RyanTrinh2
+30. Romania --> Hugelham
+31. Russia --> Mrwood223
+32. Slovakia --> tabcher
+33. Slovenia --> Leafyuw
+34. Sweden --> GrantWooley, barretthazen-cyber
+35. Switzerland --> liamsagal18
+36. Thailand --> JaydenYang-COLOSTATE
+37. Uganda --> zaneKauffman
+38. United Kingdom --> Intality, finndotexe
+39. VietNam --> Just-Sean
+40. Zambia --> YL626
+41. Zimbabwe --> chelseaHansen
 
 
 4. AVAILABLE COUNTRIES
@@ -211,61 +212,60 @@ None found.
 148. Papua New Guinea
 149. Paraguay
 150. Pitcairn [Pitcairn Islands]
-151. Portugal
-152. Qatar
-153. Republic of Moldova
-154. Réunion
-155. Rwanda
-156. Saint Barthélemy
-157. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
-158. Saint Kitts and Nevis
-159. Saint Lucia
-160. Saint Martin (French part)
-161. Saint Pierre and Miquelon
-162. Saint Vincent and the Grenadines
-163. Samoa
-164. San Marino
-165. Sao Tome and Principe
-166. Saudi Arabia
-167. Senegal
-168. Serbia
-169. Seychelles
-170. Sierra Leone
-171. Singapore
-172. Sint Maarten (Dutch part)
-173. Solomon Islands
-174. Somalia
-175. South Africa
-176. South Georgia and the South Sandwich Islands
-177. South Sudan
-178. Spain
-179. Sri Lanka
-180. State of Palestine
-181. Sudan
-182. Suriname
-183. Svalbard and Jan Mayen Islands
-184. Syrian Arab Republic
-185. Tajikistan
-186. Timor-Leste [East Timor]
-187. Togo
-188. Tokelau
-189. Tonga
-190. Trinidad and Tobago
-191. Tunisia
-192. Türkiye
-193. Turkmenistan
-194. Turks and Caicos Islands
-195. Tuvalu
-196. Ukraine
-197. United Arab Emirates
-198. United Republic of Tanzania
-199. United States Minor Outlying Islands
-200. United States of America
-201. United States Virgin Islands
-202. Uruguay
-203. Uzbekistan
-204. Vanuatu
-205. Venezuela (Bolivarian Republic of)
-206. Wallis and Futuna Islands
-207. Western Sahara (disputed)
-208. Yemen
+151. Qatar
+152. Republic of Moldova
+153. Réunion
+154. Rwanda
+155. Saint Barthélemy
+156. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
+157. Saint Kitts and Nevis
+158. Saint Lucia
+159. Saint Martin (French part)
+160. Saint Pierre and Miquelon
+161. Saint Vincent and the Grenadines
+162. Samoa
+163. San Marino
+164. Sao Tome and Principe
+165. Saudi Arabia
+166. Senegal
+167. Serbia
+168. Seychelles
+169. Sierra Leone
+170. Singapore
+171. Sint Maarten (Dutch part)
+172. Solomon Islands
+173. Somalia
+174. South Africa
+175. South Georgia and the South Sandwich Islands
+176. South Sudan
+177. Spain
+178. Sri Lanka
+179. State of Palestine
+180. Sudan
+181. Suriname
+182. Svalbard and Jan Mayen Islands
+183. Syrian Arab Republic
+184. Tajikistan
+185. Timor-Leste [East Timor]
+186. Togo
+187. Tokelau
+188. Tonga
+189. Trinidad and Tobago
+190. Tunisia
+191. Türkiye
+192. Turkmenistan
+193. Turks and Caicos Islands
+194. Tuvalu
+195. Ukraine
+196. United Arab Emirates
+197. United Republic of Tanzania
+198. United States Minor Outlying Islands
+199. United States of America
+200. United States Virgin Islands
+201. Uruguay
+202. Uzbekistan
+203. Vanuatu
+204. Venezuela (Bolivarian Republic of)
+205. Wallis and Futuna Islands
+206. Western Sahara (disputed)
+207. Yemen
