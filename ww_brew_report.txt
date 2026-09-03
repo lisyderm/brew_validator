@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-03 13:50 MT
+Most Recent Run : 2026-09-03 14:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Complexo Bohemia' (Country: 'Brazil' follows 'Guatemala')
 ============================================================
@@ -26,253 +26,253 @@ List includes common name variants to match list entries through 8am Sept 3rd
 ------------------------------
 1. Albania
 2. Algeria
-3. Argentina
-4. Armenia
-5. Australia
-6. Austria
-7. Bahamas
-8. Barbados
-9. Belgium
-10. Bhutan
-11. Bosnia & Herzegovina
-12. Brazil
-13. Cabo Verde
-14. Cambodia
-15. Canada
-16. Chile
-17. China
-18. Hong Kong
-19. Colombia
-20. Czech Republic
-21. Denmark
-22. Egypt
-23. Estonia
-24. Fiji
-25. Finland
-26. France
-27. Germany
-28. Guatemala
-29. Iceland
-30. Indonesia
-31. Ireland
-32. Italy
-33. Jamaica
-34. Japan
-35. Kyrgyzstan
-36. Madagascar
-37. Mexico
-38. Monaco
-39. Morocco
-40. Namibia
-41. Netherlands
-42. New Zealand
-43. Norway
-44. Panama
-45. Peru
-46. Philippines
-47. Poland
-48. Portugal
-49. Puerto Rico
-50. South Korea
-51. Romania
-52. Russia
-53. Slovakia
-54. Slovenia
-55. South Sudan
-56. Spain
-57. Sweden
-58. Switzerland
-59. Tajikistan
-60. Thailand
-61. Uganda
-62. United Kingdom
-63. VietNam
-64. Zambia
-65. Zimbabwe
+3. Andorra
+4. Argentina
+5. Armenia
+6. Australia
+7. Austria
+8. Bahamas
+9. Barbados
+10. Belgium
+11. Bhutan
+12. Bosnia & Herzegovina
+13. Brazil
+14. Cabo Verde
+15. Cambodia
+16. Canada
+17. Chile
+18. China
+19. Hong Kong
+20. Colombia
+21. Czech Republic
+22. Denmark
+23. Egypt
+24. Estonia
+25. Ethiopia
+26. Fiji
+27. Finland
+28. France
+29. Germany
+30. Guatemala
+31. Iceland
+32. Indonesia
+33. Ireland
+34. Italy
+35. Jamaica
+36. Japan
+37. Kyrgyzstan
+38. Madagascar
+39. Mexico
+40. Monaco
+41. Morocco
+42. Namibia
+43. Netherlands
+44. New Zealand
+45. Norway
+46. Panama
+47. Peru
+48. Philippines
+49. Poland
+50. Portugal
+51. Puerto Rico
+52. South Korea
+53. Romania
+54. Russia
+55. Slovakia
+56. Slovenia
+57. South Sudan
+58. Spain
+59. Sweden
+60. Switzerland
+61. Tajikistan
+62. Thailand
+63. Uganda
+64. United Kingdom
+65. VietNam
+66. Zambia
+67. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
 ------------------------------
 1. Åland Islands
 2. American Samoa
-3. Andorra
-4. Angola
-5. Anguilla
-6. Antarctica
-7. Antigua and Barbuda
-8. Aruba
-9. Azerbaijan
-10. Bahrain
-11. Bangladesh
-12. Belarus
-13. Belize
-14. Benin
-15. Bermuda
-16. Bolivia
-17. Bonaire
-18. Botswana
-19. Bouvet Island
-20. British Indian Ocean Territory
-21. British Virgin Islands
-22. Brunei Darussalam
-23. Bulgaria
-24. Burkina Faso
-25. Burundi
-26. Cameroon
-27. Cayman Islands
-28. Central African Republic
-29. Chad
-30. Macao
-31. Christmas Island
-32. Cocos (Keeling) Islands
-33. Comoros
-34. Congo [Republic of the Congo]
-35. Cook Islands
-36. Costa Rica
-37. Côte d'Ivoire [Ivory Coast]
-38. Croatia
-39. Cuba
-40. Curaçao
-41. Cyprus
-42. Democratic People's Republic of Korea [North Korea]
-43. Democratic Republic of the Congo [DR Congo]
-44. Djibouti
-45. Dominica
-46. Dominican Republic
-47. Ecuador
-48. El Salvador
-49. Equatorial Guinea
-50. Eritrea
-51. Eswatini [Swaziland]
-52. Ethiopia
-53. Falkland Islands (Malvinas)
-54. Faroe Islands
-55. French Guiana
-56. French Polynesia
-57. French Southern Territories
-58. Gabon
-59. Gambia
-60. Georgia
-61. Ghana
-62. Gibraltar
-63. Greece
-64. Greenland
-65. Grenada
-66. Guadeloupe
-67. Guam
-68. Guernsey
-69. Guinea
-70. Guinea-Bissau
-71. Guyana
-72. Haiti
-73. Heard Island and McDonald Islands
-74. Holy See [Vatican City]
-75. Honduras
-76. Hungary
-77. India
-78. Iran (Islamic Republic of)
-79. Iraq
-80. Islamic Republic of Afghanistan
-81. Isle of Man
-82. Israel
-83. Jersey
-84. Jordan
-85. Kazakhstan
-86. Kenya
-87. Kiribati
-88. Kuwait
-89. Lao People's Democratic Republic
-90. Latvia
-91. Lebanon
-92. Lesotho
-93. Liberia
-94. Libya
-95. Liechtenstein
-96. Lithuania
-97. Luxembourg
-98. Malawi
-99. Malaysia
-100. Maldives
-101. Mali
-102. Malta
-103. Marshall Islands
-104. Martinique
-105. Mauritania
-106. Mauritius
-107. Mayotte
-108. Micronesia (Federated States of)
-109. Mongolia
-110. Montenegro
-111. Montserrat
-112. Mozambique
-113. Myanmar [Burma]
-114. Nauru
-115. Nepal
-116. New Caledonia
-117. Nicaragua
-118. Niger
-119. Nigeria
-120. Niue
-121. Norfolk Island
-122. North Macedonia
-123. Northern Mariana Islands
-124. Oman
-125. Pakistan
-126. Palau
-127. Papua New Guinea
-128. Paraguay
-129. Pitcairn [Pitcairn Islands]
-130. Qatar
-131. Republic of Moldova
-132. Réunion
-133. Rwanda
-134. Saint Barthélemy
-135. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
-136. Saint Kitts and Nevis
-137. Saint Lucia
-138. Saint Martin (French part)
-139. Saint Pierre and Miquelon
-140. Saint Vincent and the Grenadines
-141. Samoa
-142. San Marino
-143. Sao Tome and Principe
-144. Saudi Arabia
-145. Senegal
-146. Serbia
-147. Seychelles
-148. Sierra Leone
-149. Singapore
-150. Sint Maarten (Dutch part)
-151. Solomon Islands
-152. Somalia
-153. South Africa
-154. South Georgia and the South Sandwich Islands
-155. Sri Lanka
-156. State of Palestine
-157. Sudan
-158. Suriname
-159. Svalbard and Jan Mayen Islands
-160. Syrian Arab Republic
-161. Timor-Leste [East Timor]
-162. Togo
-163. Tokelau
-164. Tonga
-165. Trinidad and Tobago
-166. Tunisia
-167. Türkiye
-168. Turkmenistan
-169. Turks and Caicos Islands
-170. Tuvalu
-171. Ukraine
-172. United Arab Emirates
-173. United Republic of Tanzania
-174. United States Minor Outlying Islands
-175. United States of America
-176. United States Virgin Islands
-177. Uruguay
-178. Uzbekistan
-179. Vanuatu
-180. Venezuela (Bolivarian Republic of)
-181. Wallis and Futuna Islands
-182. Western Sahara (disputed)
-183. Yemen
+3. Angola
+4. Anguilla
+5. Antarctica
+6. Antigua and Barbuda
+7. Aruba
+8. Azerbaijan
+9. Bahrain
+10. Bangladesh
+11. Belarus
+12. Belize
+13. Benin
+14. Bermuda
+15. Bolivia
+16. Bonaire
+17. Botswana
+18. Bouvet Island
+19. British Indian Ocean Territory
+20. British Virgin Islands
+21. Brunei Darussalam
+22. Bulgaria
+23. Burkina Faso
+24. Burundi
+25. Cameroon
+26. Cayman Islands
+27. Central African Republic
+28. Chad
+29. Macao
+30. Christmas Island
+31. Cocos (Keeling) Islands
+32. Comoros
+33. Congo [Republic of the Congo]
+34. Cook Islands
+35. Costa Rica
+36. Côte d'Ivoire [Ivory Coast]
+37. Croatia
+38. Cuba
+39. Curaçao
+40. Cyprus
+41. Democratic People's Republic of Korea [North Korea]
+42. Democratic Republic of the Congo [DR Congo]
+43. Djibouti
+44. Dominica
+45. Dominican Republic
+46. Ecuador
+47. El Salvador
+48. Equatorial Guinea
+49. Eritrea
+50. Eswatini [Swaziland]
+51. Falkland Islands (Malvinas)
+52. Faroe Islands
+53. French Guiana
+54. French Polynesia
+55. French Southern Territories
+56. Gabon
+57. Gambia
+58. Georgia
+59. Ghana
+60. Gibraltar
+61. Greece
+62. Greenland
+63. Grenada
+64. Guadeloupe
+65. Guam
+66. Guernsey
+67. Guinea
+68. Guinea-Bissau
+69. Guyana
+70. Haiti
+71. Heard Island and McDonald Islands
+72. Holy See [Vatican City]
+73. Honduras
+74. Hungary
+75. India
+76. Iran (Islamic Republic of)
+77. Iraq
+78. Islamic Republic of Afghanistan
+79. Isle of Man
+80. Israel
+81. Jersey
+82. Jordan
+83. Kazakhstan
+84. Kenya
+85. Kiribati
+86. Kuwait
+87. Lao People's Democratic Republic
+88. Latvia
+89. Lebanon
+90. Lesotho
+91. Liberia
+92. Libya
+93. Liechtenstein
+94. Lithuania
+95. Luxembourg
+96. Malawi
+97. Malaysia
+98. Maldives
+99. Mali
+100. Malta
+101. Marshall Islands
+102. Martinique
+103. Mauritania
+104. Mauritius
+105. Mayotte
+106. Micronesia (Federated States of)
+107. Mongolia
+108. Montenegro
+109. Montserrat
+110. Mozambique
+111. Myanmar [Burma]
+112. Nauru
+113. Nepal
+114. New Caledonia
+115. Nicaragua
+116. Niger
+117. Nigeria
+118. Niue
+119. Norfolk Island
+120. North Macedonia
+121. Northern Mariana Islands
+122. Oman
+123. Pakistan
+124. Palau
+125. Papua New Guinea
+126. Paraguay
+127. Pitcairn [Pitcairn Islands]
+128. Qatar
+129. Republic of Moldova
+130. Réunion
+131. Rwanda
+132. Saint Barthélemy
+133. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
+134. Saint Kitts and Nevis
+135. Saint Lucia
+136. Saint Martin (French part)
+137. Saint Pierre and Miquelon
+138. Saint Vincent and the Grenadines
+139. Samoa
+140. San Marino
+141. Sao Tome and Principe
+142. Saudi Arabia
+143. Senegal
+144. Serbia
+145. Seychelles
+146. Sierra Leone
+147. Singapore
+148. Sint Maarten (Dutch part)
+149. Solomon Islands
+150. Somalia
+151. South Africa
+152. South Georgia and the South Sandwich Islands
+153. Sri Lanka
+154. State of Palestine
+155. Sudan
+156. Suriname
+157. Svalbard and Jan Mayen Islands
+158. Syrian Arab Republic
+159. Timor-Leste [East Timor]
+160. Togo
+161. Tokelau
+162. Tonga
+163. Trinidad and Tobago
+164. Tunisia
+165. Türkiye
+166. Turkmenistan
+167. Turks and Caicos Islands
+168. Tuvalu
+169. Ukraine
+170. United Arab Emirates
+171. United Republic of Tanzania
+172. United States Minor Outlying Islands
+173. United States of America
+174. United States Virgin Islands
+175. Uruguay
+176. Uzbekistan
+177. Vanuatu
+178. Venezuela (Bolivarian Republic of)
+179. Wallis and Futuna Islands
+180. Western Sahara (disputed)
+181. Yemen
