@@ -64,9 +64,7 @@ def process_usbrews(reference_data, lint_status):
             is_out_of_order = True
 
         if is_out_of_order:
-            brewery_name = (
-                next_p.get("name") or next_p.get("id") or "Unknown Brewery"
-            )
+            brewery_name = next_p.get("name") or "Unknown Brewery"
             alphabetical_check_msg = (
                 f"JSON Order Check: Order breaks down at '{brewery_name}' "
                 f"(Location: {next_p.get('municipality')}, {next_p.get('region')} "
@@ -74,7 +72,7 @@ def process_usbrews(reference_data, lint_status):
             )
             break
 
-    # 2. Check for duplicate municipalities (where state/region also matches)
+    # 2. Check for duplicate municipalities and classify them (Same User vs Conflict)
     location_claims = {}
     for place in places:
         muni = place.get("municipality", "").strip()
@@ -83,7 +81,6 @@ def process_usbrews(reference_data, lint_status):
         name = place.get("name", "")
 
         if muni and region:
-            # Create a unique key combining municipality and state
             key = (muni.lower(), region.lower())
             if key not in location_claims:
                 location_claims[key] = {
@@ -95,10 +92,16 @@ def process_usbrews(reference_data, lint_status):
                 {"id": p_id, "name": name}
             )
 
-    # Filter out only those with more than 1 entry
-    duplicate_municipalities = [
-        data for data in location_claims.values() if len(data["entries"]) > 1
-    ]
+    duplicate_municipalities = []
+    for data in location_claims.values():
+        if len(data["entries"]) > 1:
+            # Check if all entries belong to the exact same user ID or different users
+            unique_ids = set(entry["id"] for entry in data["entries"])
+            if len(unique_ids) == 1:
+                data["status"] = "Duplicate Entry (Same User)"
+            else:
+                data["status"] = "Conflict (Multiple Users)"
+            duplicate_municipalities.append(data)
 
     # Generate current timestamp in Mountain Time
     run_timestamp = datetime.now(ZoneInfo("America/Denver")).strftime(
@@ -113,18 +116,18 @@ def process_usbrews(reference_data, lint_status):
         outfile.write(f"{alphabetical_check_msg}\n")
         outfile.write("=" * 60 + "\n\n")
 
-        # Duplicate Municipalities Section
+        # Duplicate Municipalities Section (Anonymized + Categorized)
         outfile.write(
-            "1. DUPLICATE MUNICIPALITIES (Multiple breweries in the same City & State)\n"
+            "1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)\n"
         )
         outfile.write("-" * 50 + "\n")
         if duplicate_municipalities:
             for idx, dup in enumerate(duplicate_municipalities, start=1):
                 outfile.write(
-                    f"{idx}. {dup['municipality']}, {dup['region']}:\n"
+                    f"{idx}. {dup['municipality']}, {dup['region']} [{dup['status']}]:\n"
                 )
                 for entry in dup["entries"]:
-                    outfile.write(f"   - {entry['name']} (ID: {entry['id']})\n")
+                    outfile.write(f"   - {entry['name']}\n")
                 outfile.write("\n")
         else:
             outfile.write("None found.\n")
