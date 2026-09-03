@@ -1,9 +1,7 @@
 name: Live Brews Checker
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'  
-  workflow_dispatch:      # manually trigger
+  workflow_dispatch:      # manually trigger or scheduled via external
 
 
 
