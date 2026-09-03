@@ -8,7 +8,7 @@
 6. United Kingdom --> IDs: Intality, finndotexe
 
 
-2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)
+2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme.csv)
 ------------------------------
 1. Bosnia & Herzegovina
 2. Czech Republic
