@@ -1,63 +1,144 @@
+import base64
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import json
+import os
+import urllib.request
 
-# File paths
-input_json_path = "usbrews.json"
-output_json_path = "usbrews_sorted.json"
+# GitHub API URL for usbrews.json
+api_url = "https://api.github.com/repos/CSU-CS-314-Fall-2026/students/contents/test/brews/usbrews.json?ref=main"
+
+output_txt_path = "usb_brew_report.txt"
 
 
-def sort_and_format_json(file_path):
-    """Loads JSON, sorts 'places' by region then municipality,
+def load_and_lint_private_reference_data():
+    """Fetches usbrews.json from GitHub and validates its JSON syntax."""
+    token = os.environ.get("GH_PAT")
 
-    and writes out the file with each place on a single line.
-    """
+    req = urllib.request.Request(api_url)
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    req.add_header("Accept", "application/vnd.github.v3+json")
+
     try:
-        with open(file_path, mode="r", encoding="utf-8") as file:
-            data = json.load(file)
-    except FileNotFoundError:
-        print(f"Error: Could not find '{file_path}'.")
-        return
-    except json.JSONDecodeError:
-        print(f"Error: '{file_path}' is not a valid JSON file.")
-        return
+        with urllib.request.urlopen(req) as response:
+            api_data = json.loads(response.read().decode())
+            file_content = base64.b64decode(api_data["content"]).decode("utf-8")
 
-    # Extract top-level metadata and places
-    earth_radius = data.get("earthRadius", 3959.0)
-    units = data.get("units", "km")
-    places = data.get("places", [])
+        # Perform JSON Syntax Check
+        try:
+            parsed_json = json.loads(file_content)
+            lint_status = "JSON Syntax Check (JSONLint): PASSED (Valid JSON)"
+            return parsed_json, lint_status
+        except json.JSONDecodeError as jde:
+            lint_status = f"JSON Syntax Check (JSONLint): FAILED -> {jde}"
+            return None, lint_status
 
-    # Sort places primarily by 'region', secondarily by 'municipality'
-    sorted_places = sorted(
-        places,
-        key=lambda x: (
-            x.get("region", "").strip().lower(),
-            x.get("municipality", "").strip().lower(),
-        ),
+    except Exception as e:
+        lint_status = f"JSON Fetch Error: {e}"
+        return None, lint_status
+
+
+def process_usbrews(reference_data, lint_status):
+    """Analyzes usbrews data for alphabetization breaks and duplicate municipalities."""
+    places = reference_data.get("places", [])
+
+    # 1. Check alphabetical order (sorting primarily by Region/State, then Municipality)
+    alphabetical_check_msg = (
+        "JSON Order Check: All regions and municipalities are in alphabetical order."
+    )
+    for i in range(len(places) - 1):
+        curr_p = places[i]
+        next_p = places[i + 1]
+
+        curr_region = curr_p.get("region", "").strip().lower()
+        next_region = next_p.get("region", "").strip().lower()
+        curr_muni = curr_p.get("municipality", "").strip().lower()
+        next_muni = next_p.get("municipality", "").strip().lower()
+
+        # Compare regions first, then municipalities if regions are equal
+        is_out_of_order = False
+        if curr_region > next_region:
+            is_out_of_order = True
+        elif curr_region == next_region and curr_muni > next_muni:
+            is_out_of_order = True
+
+        if is_out_of_order:
+            brewery_name = (
+                next_p.get("name") or next_p.get("id") or "Unknown Brewery"
+            )
+            alphabetical_check_msg = (
+                f"JSON Order Check: Order breaks down at '{brewery_name}' "
+                f"(Location: {next_p.get('municipality')}, {next_p.get('region')} "
+                f"follows {curr_p.get('municipality')}, {curr_p.get('region')})"
+            )
+            break
+
+    # 2. Check for duplicate municipalities (where state/region also matches)
+    location_claims = {}
+    for place in places:
+        muni = place.get("municipality", "").strip()
+        region = place.get("region", "").strip()
+        p_id = place.get("id", "")
+        name = place.get("name", "")
+
+        if muni and region:
+            # Create a unique key combining municipality and state
+            key = (muni.lower(), region.lower())
+            if key not in location_claims:
+                location_claims[key] = {
+                    "municipality": muni,
+                    "region": region,
+                    "entries": [],
+                }
+            location_claims[key]["entries"].append(
+                {"id": p_id, "name": name}
+            )
+
+    # Filter out only those with more than 1 entry
+    duplicate_municipalities = [
+        data for data in location_claims.values() if len(data["entries"]) > 1
+    ]
+
+    # Generate current timestamp in Mountain Time
+    run_timestamp = datetime.now(ZoneInfo("America/Denver")).strftime(
+        "%Y-%m-%d %H:%M"
     )
 
-    # Build the custom one-liner text structure
-    lines = []
-    lines.append("{")
-    lines.append(f'  "earthRadius"   : {earth_radius},')
-    lines.append(f'  "units"         : "{units}",')
-    lines.append('  "places"        : [')
+    # 3. Write the structured report
+    with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
+        # Header Section
+        outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
+        outfile.write(f"{lint_status}\n")
+        outfile.write(f"{alphabetical_check_msg}\n")
+        outfile.write("=" * 60 + "\n\n")
 
-    for i, place in enumerate(sorted_places):
-        # Convert the dictionary into a single-line JSON string
-        place_str = json.dumps(place)
-        if i == 0:
-            lines.append(f"    {place_str}")
+        # Duplicate Municipalities Section
+        outfile.write(
+            "1. DUPLICATE MUNICIPALITIES (Multiple breweries in the same City & State)\n"
+        )
+        outfile.write("-" * 50 + "\n")
+        if duplicate_municipalities:
+            for idx, dup in enumerate(duplicate_municipalities, start=1):
+                outfile.write(
+                    f"{idx}. {dup['municipality']}, {dup['region']}:\n"
+                )
+                for entry in dup["entries"]:
+                    outfile.write(f"   - {entry['name']} (ID: {entry['id']})\n")
+                outfile.write("\n")
         else:
-            lines.append(f"    ,{place_str}")
+            outfile.write("None found.\n")
 
-    lines.append("  ]")
-    lines.append("}")
-
-    # Write out to the new JSON file
-    with open(output_json_path, mode="w", encoding="utf-8") as outfile:
-        outfile.write("\n".join(lines))
-
-    print(f"Success! Sorted one-liner JSON saved to '{output_json_path}'.")
+    print(
+        f"\nProcessing complete! Saved US Brews report to '{output_txt_path}'."
+    )
 
 
 if __name__ == "__main__":
-    sort_and_format_json(input_json_path)
+    print("Loading and linting usbrews reference data via API...")
+    ref_data, lint_status = load_and_lint_private_reference_data()
+
+    if ref_data:
+        process_usbrews(ref_data, lint_status)
+    else:
+        print(f"Aborting process due to error: {lint_status}")
