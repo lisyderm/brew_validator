@@ -37,7 +37,30 @@ def process_countries(csv_path, reference_data):
     """Reads the CSV and JSON, matches them, flags duplicates, and writes an anonymized text report."""
     places = reference_data.get("places", [])
 
-    # 1. Load CSV countries into a set and tracking dictionary
+    # 1. Check if countries in JSON places are in alphabetical order
+    alphabetical_check_msg = (
+        "JSON Order Check: All countries are in alphabetical order."
+    )
+    for i in range(len(places) - 1):
+        curr_country = places[i].get("country", "").strip()
+        next_country = places[i + 1].get("country", "").strip()
+
+        if curr_country.lower() > next_country.lower():
+            # Order breaks down here. Look for brewery/place name fields or fallback to ID
+            offending_place = places[i + 1]
+            brewery_name = (
+                offending_place.get("name")
+                or offending_place.get("brewery")
+                or offending_place.get("id")
+                or "Unknown Brewery"
+            )
+            alphabetical_check_msg = (
+                f"JSON Order Check: Order breaks down at '{brewery_name}' "
+                f"(Country: '{next_country}' follows '{curr_country}')"
+            )
+            break
+
+    # 2. Load CSV countries into a set and tracking dictionary
     csv_countries = set()
     csv_original_names = {}
     try:
@@ -54,7 +77,7 @@ def process_countries(csv_path, reference_data):
         print(f"Error: Could not find the CSV file at '{csv_path}'.")
         return None
 
-    # 2. Group JSON places by country (to capture multiple claims/duplicates)
+    # 3. Group JSON places by country (to capture multiple claims/duplicates)
     json_claims = {}
     for place in places:
         c_name = place.get("country")
@@ -65,7 +88,7 @@ def process_countries(csv_path, reference_data):
                 json_claims[clean_c] = []
             json_claims[clean_c].append({"id": p_id, "original_name": c_name.strip()})
 
-    # 3. Categorize data (storing only country names, stripping individual IDs)
+    # 4. Categorize data
     matched_countries = []
     unclaimed_rows = []
     duplicate_countries = []
@@ -93,11 +116,12 @@ def process_countries(csv_path, reference_data):
         "%Y-%m-%d %H:%M"
     )
 
-    # 4. Write the structured report to a text file
+    # 5. Write the structured report to a text file
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
-        # Timestamp Header
+        # Header with Timestamp and Alphabetical Check
         outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
-        outfile.write("=" * 40 + "\n\n")
+        outfile.write(f"{alphabetical_check_msg}\n")
+        outfile.write("=" * 60 + "\n\n")
 
         # Section 1: Duplicate Claims (Top)
         outfile.write("1. DUPLICATE CLAIMS (Multiple people per country)\n")
@@ -129,7 +153,7 @@ def process_countries(csv_path, reference_data):
         for idx, country in enumerate(unclaimed_rows, start=1):
             outfile.write(f"{idx}. {country}\n")
 
-    print(f"\nProcessing complete! Saved anonymized report to '{output_txt_path}'.")
+    print(f"\nProcessing complete! Saved report to '{output_txt_path}'.")
 
 
 if __name__ == "__main__":
