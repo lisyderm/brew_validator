@@ -31,28 +31,6 @@ def load_private_reference_data():
         return None
 
 
-# def load_remote_reference_data(json_url):
-#     try:
-#         with urllib.request.urlopen(json_url) as response:
-#             return json.loads(response.read().decode())
-#     except Exception as e:
-#         print(f"Error fetching data: {e}")
-#         return None
-
-
-# def load_local_reference_data(file_path):
-#     """Loads and parses the JSON reference data from a local file."""
-#     try:
-#         with open(file_path, mode="r", encoding="utf-8") as file:
-#             return json.load(file)
-#     except FileNotFoundError:
-#         print(f"Error: Could not find the reference JSON file at '{file_path}'.")
-#         return None
-#     except json.JSONDecodeError:
-#         print(f"Error: '{file_path}' is not a valid JSON file.")
-#         return None
-
-
 def process_countries(csv_path, reference_data):
     """Reads the CSV and JSON, matches them, flags duplicates, and writes a comprehensive text report."""
     places = reference_data.get("places", [])
@@ -91,12 +69,13 @@ def process_countries(csv_path, reference_data):
     duplicate_rows = []
     unmatched_json_rows = []
 
-    # Check CSV countries against JSON claims
+    # Check CSV countries against JSON claims (Taken Countries)
     for clean_c, orig_name in csv_original_names.items():
         if clean_c in json_claims:
             claims = json_claims[clean_c]
-            # Use the first ID for the standard found list
-            matched_rows.append({"country": orig_name, "id": claims[0]["id"]})
+            # List all IDs taken for this country
+            all_ids = ", ".join([c["id"] for c in claims])
+            matched_rows.append({"country": orig_name, "ids": all_ids})
         else:
             unclaimed_rows.append(orig_name)
 
@@ -111,22 +90,10 @@ def process_countries(csv_path, reference_data):
         if clean_c not in csv_countries:
             unmatched_json_rows.append(claims[0]["original_name"])
 
-    # 4. Write the structured report to a text file
+    # 4. Write the structured report to a text file in the requested order
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
-        # Section 1: Found
-        outfile.write("1. FOUND COUNTRIES\n")
-        outfile.write("-" * 30 + "\n")
-        for idx, item in enumerate(matched_rows, start=1):
-            outfile.write(f"{idx}. {item['country']} --> {item['id']}\n")
-
-        # Section 2: Unclaimed
-        outfile.write("\n\n2. UNCLAIMED COUNTRIES\n")
-        outfile.write("-" * 30 + "\n")
-        for idx, country in enumerate(unclaimed_rows, start=1):
-            outfile.write(f"{idx}. {country}\n")
-
-        # Section 3: Duplicates
-        outfile.write("\n\n3. DUPLICATE CLAIMS (Multiple people per country)\n")
+        # Section 1: Duplicate Claims (Top)
+        outfile.write("1. DUPLICATE CLAIMS (Multiple people per country)\n")
         outfile.write("-" * 30 + "\n")
         if duplicate_rows:
             for idx, item in enumerate(duplicate_rows, start=1):
@@ -134,8 +101,8 @@ def process_countries(csv_path, reference_data):
         else:
             outfile.write("None found.\n")
 
-        # Section 4: Unmatched JSON
-        outfile.write("\n\n4. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)\n")
+        # Section 2: Unmatched JSON
+        outfile.write("\n\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries.csv)\n")
         outfile.write("-" * 30 + "\n")
         if unmatched_json_rows:
             for idx, country in enumerate(unmatched_json_rows, start=1):
@@ -143,11 +110,23 @@ def process_countries(csv_path, reference_data):
         else:
             outfile.write("None found.\n")
 
+        # Section 3: Taken Countries (Found)
+        outfile.write("\n\n3. TAKEN COUNTRIES\n")
+        outfile.write("-" * 30 + "\n")
+        for idx, item in enumerate(matched_rows, start=1):
+            outfile.write(f"{idx}. {item['country']} --> {item['ids']}\n")
+
+        # Section 4: Available Countries (Unclaimed - Bottom)
+        outfile.write("\n\n4. AVAILABLE COUNTRIES\n")
+        outfile.write("-" * 30 + "\n")
+        for idx, country in enumerate(unclaimed_rows, start=1):
+            outfile.write(f"{idx}. {country}\n")
+
     print(f"\nProcessing complete! Saved detailed report to '{output_txt_path}'.")
 
 
 if __name__ == "__main__":
-    print("Loading local reference data...")
+    print("Loading remote reference data via API...")
     ref_data = load_private_reference_data()
 
     if ref_data:
