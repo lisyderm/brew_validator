@@ -70,6 +70,7 @@
     ,{"id": "pablodos", "team": "t21", "name": "Clubhouse Brewery", "municipality": "Kingston", "country": "Jamaica", "latitude": "18.04491", "longitude": "-76.79153", "elevation": "701"}
     ,{"id": "nhartawan", "team": "t33", "name": "West Coast Brewing", "municipality": "Shizuoka", "country": "Japan", "latitude": "34.9225", "longitude": "138.3664", "elevation": "5"}
     ,{"id": "Bacolo12", "team": "t16", "name": "Inkhorn Brewing", "municipality": "Tokyo", "country": "Japan", "latitude": "35.719646", "longitude": "139.712431", "elevation": "103"}
+    ,{"id": "Drew080808", "team": "t11", "name": "Paradise Brewery", "municipality": "Pyongyang", "country": "North Korea", "latitude": "39.0194", "longitude": "125.7522", "elevation": "102"}
     ,{"id": "JustinDuran11", "team": "t18", "name": "Kenya Breweries Limited", "municipality": "Nairobi", "country": "Kenya", "latitude": "-1.2359", "longitude": "36.87906", "elevation": "5272"}
     ,{"id": "broken-wrists", "team": "t37", "name": "GREMBEER", "municipality": "Klina", "country": "Kosovo", "latitude": "42.618897", "longitude": "20.576233", "elevation": "1253"}
     ,{"id": "emersontwii", "team": "t35", "name": "Raccoon Brewing Co", "municipality": "Bishkek", "country": "Kyrgyzstan", "latitude": "42.869868", "longitude": "74.601474", "elevation": "2560"}
@@ -80,8 +81,8 @@
     ,{"id": "ZachatorCodes", "team": "t36", "name": "Genys Brewing Co.", "municipality": "Kaunas", "country": "Lithuania", "latitude": "54.8784", "longitude": "23.9377", "elevation": "172"}
     ,{"id": "ybenchouaf", "team": "t18", "name": "Brasserie Nationale", "municipality": "Bascharage", "country": "Luxembourg", "latitude": "49.56703", "longitude": "5.91198", "elevation": "951"}
     ,{"id": "jaylinwhite", "team": "t17", "name": "Star Brewing", "municipality": "Antsirabe", "country": "Madagascar", "latitude": "-19.863325", "longitude": "47.020088", "elevation": "4902"}
-    ,{"id": "AbbyGuan", "team": "t31", "name": "Heineken Malaysia Berhad", "municipality": "Petaling Jaya", "country": "Malaysia", "latitude": "3.08377789294519", "longitude": "101.6209352172518", "elevation": "148"}
     ,{"id": "voideater27", "team": "t16", "name": "Bumpy Road Brewing", "municipality": "Lilongwe", "country": "Malawi", "latitude": "-13.94930858068464", "longitude": "33.79111957693454", "elevation": "3440"}
+    ,{"id": "AbbyGuan", "team": "t31", "name": "Heineken Malaysia Berhad", "municipality": "Petaling Jaya", "country": "Malaysia", "latitude": "3.08377789294519", "longitude": "101.6209352172518", "elevation": "148"}
     ,{"id": "Heron-i", "team": "t28", "name": "The Brew Grill & Brewery", "municipality": "Sliema", "country": "Malta", "latitude": "35.908500", "longitude": "14.501686", "elevation": "13"}
     ,{"id": "ManeeshkaThakurCSU", "team": "t38", "name": "Phoenix Beverage Limited (PBL)", "municipality": "Vacoas-Phoenix", "country": "Mauritius", "latitude": "-20.28702", "longitude": "57.49852", "elevation": "424":}
     ,{"id": "CDSG1987", "team": "t20", "name": "Jardin de Cerveza Hercules", "municipality": "Santiago de Queretaro", "country": "Mexico", "latitude": "20.5997", "longitude": "-100.2551", "elevation": "5970"}
@@ -96,6 +97,7 @@
     ,{"id": "oliviamcjunkins", "team": "t19", "name": "Brew Moon Brewing Company", "municipality": "Amberley", "country": "New Zealand", "latitude": "-43.1492", "longitude": "172.7297", "elevation": "153"}
     ,{"id": "Obinna992", "team": "t38", "name": "Benue Brewery Limited", "municipality": "Makurdi", "country": "Nigeria", "latitude": "7.05", "longitude": "8.25", "elevation": "479"}
     ,{"id": "davemattcsu", "team": "t00", "name": "Svalbard Bryggeri AS", "municipality": "LongyearByen", "country": "Norway", "latitude": "78.227", "longitude": "15.6092", "elevation": "1"}
+    ,{"id": "GedikEngin", "team": "t13", "name": "Murree Brewery", "municipality": "Rawalpindi", "country": "Pakistan", "latitude": "33.5812", "longitude": "73.0786", "elevation": "1644"}
     ,{"id": "hndevine99", "team": "t39", "name": "La Fabrica", "municipality": "Panama City", "country": "Panama", "latitude": "8.940277", "longitude": "-79.551591", "elevation": "26"}
     ,{"id": "AntoniJParol", "team": "t32", "name": "Paradise Breweries", "municipality": "Port Moresby", "country": "Papua New Guinea", "latitude": "-9.402890", "longitude": "147.306622", "elevation": "180"}
     ,{"id": "pinecakes", "team": "t11", "name": "Cerveceria Paqcha", "municipality": "Cusco", "country": "Peru", "latitude": "-13.307952", "longitude": "-72.115785", "elevation": "9403"}
@@ -128,8 +130,6 @@
     ,{"id": "codingissofunyay", "team": "t17", "name": "Carlsberg Ukraine", "municipality": "Kyiv", "country": "Ukraine",  "latitude": "50.3510", "longitude": "30.5407", "elevation": "558"} 
     ,{"id": "chrislesher", "team": "t12", "name": "Craft by Side Hustle", "municipality": "Abu Dhabi", "country": "United Arab Emirates", "latitude": "24.499819", "longitude": "54.387037", "elevation": "10"}
     ,{"id": "finndotexe", "team": "t21", "name": "Holy Goat Brewing", "municipality": "Dundee", "country": "United Kingdom", "latitude": "56.4570812", "longitude": "-2.9888693", "elevation": "127"}
-    ,{"id": "alexisharing", "team": "t13", "name": "Chimay Brewery", "municipality": "Chimay", "country": "Belgium", "latitude": "50.047024", "longitude": "4.322326", "elevation": "814"}
-    ,{"id": "kacperm37", "team": "t33", "name": "Browar Stu Mostów", "municipality": "Wrocław", "country": "Poland", "latitude": "51.1317464", "longitude": "17.0567446", "elevation": "390"}
     ,{"id": "nhartawan", "team": "t33", "name": "West Coast Brewing", "municipality": "Shizuoka", "country": "Japan", "latitude": "34.9225", "longitude": "138.3664", "elevation": "5"}
     ,{"id": "CengizBuegel", "team": "t26", "name": "Efsane Birahanesi", "municipality": "Istanbul", "country": "Turkiye", "latitude": "41.00091324580079", "longitude": "28.79714011997663", "elevation": "240"}
     ,{"id": "snaranjo19", "team": "t29", "name": "Avante Brewing", "municipality": "Montevideo", "country": "Uruguay", "latitude": "-34.917020", "longitude": "-56.160405", "elevation": "75"}

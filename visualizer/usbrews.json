@@ -6,8 +6,8 @@
     ,{"id": "PokeDan0928", "team": "t38", "name": "Green Bus Brewings", "municipality": "Huntsville", "region": "Alabama", "latitude": "34.73014864937", "longitude": "-86.583917146309", "elevation": "663"}
     ,{"id": "Dami359", "team": "t38", "name": "Common Bond Brewers", "municipality": "Montgomery", "region": "Alabama", "latitude": "32.3774", "longitude": "-86.3136", "elevation": "220"}
     ,{"id": "mattboersma18", "team": "t22", "name": "Anchorage Brewing Company", "municipality": "Anchorage", "region": "Alaska", "latitude": "61.1370", "longitude": "149.8845", "elevation": "90"}
+    ,{"id": "Obinna992", "team": "t38", "name": "Dark Sky Brewing Company", "muncipality": "Flagstaff", "region": "Arizona", "latitude": "35.1995", "longitude": "-111.649", "elevation": "6900"}
     ,{"id": "Philojyw", "team": "t15", "name": "The Pink Door Tea House", "municipality": "Glendale", "region": "Arizona", "latitude": "33.541929890184555", "longitude": "-112.18584547116511", "elevation": "1152"}
-    ,{"id": "Obinna992", "team": "t38", "name": "Dark Sky Brewing", "muncipality": "Flagstaff", "region": "Arizona", "latitude": "35.1980", "longitude": "-111.6513", "elevation": "6909"}
     ,{"id": "vishnupcolostate", "team": "t34", "name": "LazyG Brewhouse", "municipality": "Prescott", "region": "Arizona", "latitude": "34.534431", "longitude": "-112.471228", "elevation": "5373"}
     ,{"id": "twistedcat767", "team": "t21", "name": "Four Peaks Brewing Company", "municipality": "Tempe", "region": "Arizona", "latitude": "33.419625", "longitude": "-111.915858", "elevation": "1178"}
     ,{"id": "judsonandrew", "team": "t34", "name": "Orthodox Farmhouse Brewery", "municipality": "Elkins", "region": "Arkansas", "latitude": "36.081948", "longitude": "-93.974769", "elevation": "1224"}
@@ -18,17 +18,16 @@
     ,{"id": "AliceEnck", "team":"t23", "name" :"Arkansas Brewing Company", "municipality": "Ozark", "region": "Arkansas", "latitude": "35.485308", "longitude": "-93.825221", "elevation": "371"} 
     ,{"id": "sambrossard", "team": "t32", "name": "Sierra Nevada Brewing Company", "municipality": "Chico", "region": "California", "latitude": "39.723472", "longitude": "-121.816133", "elevation": "236"}
     ,{"id": "RyanTrinh2", "team": "t20", "name": "Karl Strauss Brewing Company", "municipality": "San Diego", "region": "California", "latitude": "32.896549", "longitude": "-117.201781", "elevation": "282"}
+    ,{"id": "Saad05Ali", "team": "t30", "name": "San Francisco Brewing Co.", "municipality": "San Francisco", "region": "California", "latitude": "37.802192", "longitude": "-122.417183", "elevation": "44"}
     ,{"id": "CSUJacob", "team": "t25", "name": "Russian River Brewing Company", "municipality": "Santa Rosa", "region": "California", "latitude": "38.442386", "longitude": "-122.710459", "elevation": "177"}
     ,{"id": "davemattcsu", "team": "t00", "name": "New Belgium Brewing Company", "municipality": "Fort Collins", "region": "Colorado", "latitude": "40.5932376", "longitude": "-105.068601", "elevation": "4967"}
     ,{"id": "Blake-Lindsay", "team": "t24", "name": "Apothecary Brewing Co.", "municipality": "Claymont", "region": "Delaware", "latitude": "39.795721", "longitude": "-75.468367", "elevation": "90"}
     ,{"id": "bryanr-69", "team": "t24", "name": "First State Brewing Company", "municipality": "Middletown", "region": "Delaware", "latitude": "39.4385", "longitude": "-75.7277", "elevation": "66"}
     ,{"id": "alyssakbennett", "team": "t28", "name": "Bellefonte Brewing Company", "municipality": "Wilmington", "region": "Delaware", "latitude": "39.730421", "longitude": "-75.632387", "elevation": "103"}
-    , {"id": "Weston-Peatrowsky", "team": "t31", "name": "Jester King Brewery", "municipality": "Austin", "region": "Texas", "latitude": "30.2303120", "longitude": "-97.9996754", "elevation": "1133"}
     ,{"id": "finndotexe", "team": "t21", "name": "8-Bit Aleworks", "municipality": "Avondale", "region": "Arizona", "latitude": "33.4544680", "longitude": "-112.3264190", "elevation": "977"}
     ,{"id": "AbbyGuan", "team": "t31", "name": "Black Horse Brewery", "municipality": "Show Low", "region": "Arizona", "latitude": "34.28944500633632", "longitude": "-110.15737764291761", "elevation": "6307"}
     ,{"id": "jaylinwhite", "team": "t17", "name": "Procreations Brewing Company", "municipality": "Fresno", "region": "California", "latitude": "36.728840", "longitude": "-119.785327", "elevation": "294"}
     ,{"id": "tuythoven", "team": "t19", "name": "Golden Road Brewing Los Angeles", "municipality": "Los Angeles", "region": "California", "latitude": "34.150622", "longitude": "-118.274466", "elevation": "476"}
-    ,{"id": "davemattcsu", "team": "t00", "name": "New Belgium Brewing Company", "municipality": "Fort Collins", "region": "Colorado", "latitude": "40.5932376", "longitude": "-105.068601", "elevation": "4967"}
     ,{"id": "moyram03", "team": "t27", "name": "Adobe Creek Brewing", "municipality": "Novato", "region": "California", "latitude": "38.073429944114245", "longitude": "-122.53585971192253", "elevation": "28"}
     ,{"id": "alexisharing", "team": "t13", "name": "Lagunitas Brewing Company", "municipality": "Petaluma", "region": "California", "latitude": "38.271498", "longitude": "-122.662310", "elevation": "41"}
     ,{"id": "Adgo2610-ai", "team": "t37", "name": "Burning Barrel Brewing Co.", "municipality": "Rancho Cordova", "region": "California", "latitude": "38.597311", "longitude": "-121.266400", "elevation": "148"}
@@ -92,6 +91,8 @@
     ,{"id": "LarryOrnelas06", "team": "t39", "name": "Beaverhead Brewing Company", "municipality": "Dillon", "region": "Montana", "latitude": "45.21583568337523", "longitude": "-112.63946517545077", "elevation": "5102"}
     ,{"id": "Mrwood223", "team": "t27", "name": "Sawdust and Steel Brewing", "municipality": "Three Forks", "region": "Montana", "latitude": "45.89069097173745", "longitude": "-111.55475186441788", "elevation": "4072"}
     ,{"id": "jacobzier", "team": "t27", "name": "Steeple Brewing Co.", "municipality": "Hastings", "region": "Nebraska", "latitude": "40.5842", "longitude": "-98.3906", "elevation": "1926"}
+    ,{"id": "Owen-Pendleton", "team": "t35", "name": "Drekker Brewing Company", "municipality": "Fargo", "region": "North Dakota", "latitude": "46.8763", "longitude": "-96.807675", "elevation": "908"}  
+    ,{"id": "chelseaHansen", "team": "t14", "name": "Black Tooth Brewing Company", "municipality": "Cheyenne", "region": "Wyoming", "latitude": "41.1339377", "longitude": "-104.8194", "elevation": "6086"}
     ,{"id": "codingissofunyay", "team": "t17", "name": "Boss City Brewing Co.", "municipality": "Sidney", "region": "Nebraska",  "latitude": "41.1441", "longitude": "-102.9790", "elevation": "4094"} 
     ,{"id": "patrick-kearney-2006", "team": "t14", "name": "Atypical Brewery & Barrelworks", "municipality": "Minot", "region": "North Dakota", "latitude": "48.2361", "longitude": "-101.2854", "elevation": "1552"}
     ,{"id": "YL626", "team": "t25", "name": "Evil Twin Brewery NYC", "municipality": "Ridgewood", "region": "New York", "latitude": "40.696159", "longitude": "-73.904018", "elevation": "69"}
@@ -99,6 +100,7 @@
     ,{"id": "Jordangama95", "team": "t30", "name": "Westlake Brewing Company", "municipality": "Dallas", "region": "Texas", "latitude": "32.78318", "longitude": "-96.78251", "elevation": "459"}
     ,{"id": "Isaac-Nelson", "team": "t29", "name": "Union Bear Brewing Company", "municipality": "Plano", "region": "Texas", "latitude": "33.089869", "longitude": "-96.820714", "elevation": "712"}
     ,{"id": "phntml", "team": "t26", "name": "Wild Bunch Brewing Co.", "municipality": "Red Rock", "region": "Texas", "latitude": "29.871872944305437", "longitude": "-97.44774595049006", "elevation": "619"}
+    ,{"id": "Weston-Peatrowsky", "team": "t31", "name": "Jester King Brewery", "municipality": "Austin", "region": "Texas", "latitude": "30.2303120", "longitude": "-97.9996754", "elevation": "1133"}
     ,{"id": "widelo", "team": "t37", "name": "North Pillar Brewing Co", "municipality": "Waukesha", "region": "Wisconsin", "latitude": "43.0152222", "longitude": "-88.2338389", "elevation": "850"}
     ,{"id": "emersontwii", "team": "t35", "name": "Deschutes Brewery", "municipality": "Bend", "region": "Oregon", "latitude": "44.047500", "longitude": "-121.327800", "elevation": "3623"}
     ,{"id": "Chris8992", "team": "t18", "name": "TPK Brewing Co.", "municipality": "Portland", "region": "Oregon", "latitude": "45.512396", "longitude": "-122.610524", "elevation": "190"}
@@ -117,17 +119,19 @@
     ,{"id": "CengizBuegel", "team": "t26", "name": "Bierkeller Brewing Company", "municipality": "Colombia", "region": "South Carolina", "latitude": "34.00109826509543", "longitude": "-81.05197035581935", "elevation": "276"}
     ,{"id": "emersontomlinson", "team": "t12", "name": "Zymurcracy Beer Company", "municipality": "Rapid City", "region": "South Dakota", "latitude": "44.037903", "longitude": "-103.179898", "elevation": "3256"}
     ,{"id": "Dolphindasher324", "team": "t24", "name": "Crow Peak Brewing Company", "municipality": "Spearfish", "region": "South Dakota", "latitude": "44.5179", "longitude": "-103.8729", "elevation": "3650"}
+    ,{"id": "Hayden-Albrecht", "team": "t33", "name": "New Heights Brewery", "municipality": "Nashville", "region": "Tennessee", "latitude": "36.1491570936929", "longitude": "-86.77079223451912", "elevation": "421"}
     ,{"id": "braptus", "team": "t32", "name": "Bandera Brewery", "municipality": "Bandera", "region": "Texas", "latitude": "29.7410449", "longitude": "-99.0278244", "elevation": "1316"}
     ,{"id": "ybenchouaf", "team": "t18", "name": "Otherlands Beer", "municipality": "Bellingham", "region": "Washington", "latitude": "48.7584991", "longitude": "-122.4680023", "elevation": "78"}
     ,{"id": "Hugelham", "team": "t30", "name": "Thirsty Crab Brewery", "municipality": "Clinton", "region": "Washington", "latitude": "47.979867", "longitude": "-122.359370", "elevation": "152"}
     ,{"id": "dpordsan", "team":"t19", "name": "Formula Brewing", "municipality": "Issaquah", "region": "Washington", "latitude": "47.5506638889", "longitude": "-122.0634138889", "elevation": "45"}
-    ,{"id": "tylersnow-dev", "team": "t18", "name": "Adventure Club Brewing", "municipality": "Bayfield", "region": "Wisconsin", "latitude": "46.801911", "longitude": "-90.836881", "elevation": "752"}    
+    ,{"id": "GedikEngin", "team": "t13", "name": "Old Man Brewing", "municipality": "Snohomish", "region": "Washington", "latitude": "47.9135583", "longitude": "-122.0842611", "elevation": "72"}
+    ,{"id": "tylersnow-dev", "team": "t18", "name": "Adventure Club Brewing", "municipality": "Bayfield", "region": "Wisconsin", "latitude": "46.801911", "longitude": "-90.836881", "elevation": "752"}
+    ,{"id": "miloskud", "team": "t39", "name": "PetSkull Brewing Company", "municipality": "Manitowoc", "region": "Wisconsin", "latitude": "44.0944685", "longitude": "-87.6613563", "elevation": "594"}
     ,{"id": "Heron-i", "team": "t28", "name": "Broken Bat Brewing Company", "municipality": "Milwaukee", "region": "Wisconsin", "latitude": "43.029081", "longitude": "-87.910006", "elevation": "584"}
     ,{"id": "Julian-Rhino", "team": "t24", "name": "New Glarus Brewing Company", "municipality": "New Glarus", "region": "Wisconsin", "latitude": "42.8170693", "longitude": "-89.6306133", "elevation": "942"}
     ,{"id": "CSUAngel28", "team": "t28", "name": "Cody Craft Brewing", "municipality": "Cody", "region": "Wyoming", "latitude": "44.525803", "longitude": "-109.052762", "elevation": "5016"}      
     ,{"id": "isaacruss", "team": "t12", "name": "Pushroot Brewing Company", "municipality": "Lander", "region": "Wyoming", "latitude": "42.834049", "longitude": "-108.737018", "elevation": "6302"}
     ,{"id": "Saad05Ali", "team": "t30", "name": "San Francisco Brewing Co.", "municipality": "San Francisco", "region": "California", "latitude": "37.802192", "longitude": "-122.417183", "elevation": "44"}
-    ,{"id": "alexisharing", "team": "t13", "name": "Lagunitas Brewing Company", "municipality": "Petaluma", "region": "California", "latitude": "38.271498", "longitude": "-122.662310", "elevation": "41"}
     ,{"id": "kacperm37", "team": "t33", "name": "Crushed By Giants Brewing Company", "municipality": "Chicago", "region": "Illinois", "latitude": "41.8845877", "longitude": "-87.6779243", "elevation": "597"}
     ,{"id": "Intality", "team": "t18", "name": "Bait House Brewery", "municipality": "Sandusky", "region": "Ohio", "latitude": "41.4587160878856", "longitude": "-82.70155223189013", "elevation": "592"}
     ,{"id": "snaranjo19", "team": "t29", "name": "The Tank Brewing Co.", "municipality": "Miami", "region": "Florida", "latitude": "25.820993", "longitude": "-80.313770", "elevation": "6"}
@@ -135,13 +139,11 @@
     ,{"id": "snaranjo19", "team": "t29", "name": "The Tank Brewing Co.", "municipality": "Miami", "region": "Florida", "latitude": "25.820993", "longitude": "-80.313770", "elevation": "6"}
     ,{"id": "minhhle705", "team": "t22", "name": "Zero Gravity Craft Brewery", "municipality": "Burlington", "region": "Vermont", "latitude": "44.4759", "longitude": "-73.2121", "elevation": "340"}
     ,{"id": "Calvin375", "team": "t22", "name": "Hardywood Park Craft Brewery", "municipality": "Richmond", "region": "Virginia", "latitude": "37.564992", "longitude": "-77.457603", "elevation": "170"}
-    ,{"id": "Hayden-Albrecht", "team": "t33", "name": "New Heights Brewery", "municipality": "Nashville", "region": "Tennessee", "latitude": "36.1491570936929", "longitude": "-86.77079223451912", "elevation": "421"}
     ,{"id": "AbdoulKadre", "team": "t33", "name": "The Bronx Beer Hall", "municipality": "Bronx", "region": "New York", "latitude": "40.85417", "longitude": "73.88820", "elevation": "95"}
     ,{"id": "Zeph1001", "team": "t25", "name": "The Alchemist Brewery", "municipality": "Stowe", "region": "Vermont", "latitude": "44.475983474450345", "longitude": "-72.71571962637941", "elevation": "768"}
     ,{"id": "jmartinez-04", "team": "t13", "name": "Port City Brewing Company", "municipality": "Alexandria", "region": "Virginia", "latitude": "38.807959", "longitude": "-77.101423", "elevation": "69"}
     ,{"id": "chelseaHansen", "team": "t14", "name": "Black Tooth Brewing Company", "municipality": "Cheyenne", "region": "Wyoming", "latitude": "41.1339377", "longitude": "-104.8194", "elevation": "6086"}
     ,{"id": "pinecakes", "team":"t11", "name": "Smith Alley Brewing Company", "municipality": "Sheridan", "region": "Wyoming", "latitude": "44.798934", "longitude": "-106.956215", "elevation": "3750"}
-    ,{"id": "Saad05Ali", "team": "t30", "name": "San Francisco Brewing Co.", "municipality": "San Francisco", "region": "California", "latitude": "37.802192", "longitude": "-122.417183", "elevation": "44"}
     ,{"id": "longmiler", "team": "t20", "name": "Strap Tank Brewery", "municipality": "Lehi", "region": "Utah", "latitude": "40.4312", "longitude": "-111.8885", "elevation": "4770"}
     ,{"id": "random_vidzs", "team": "t29", "name": "Bewilder Brewing Co.", "municipality": "Salt Lake City", "region": "Utah", "latitude": "40.759425", "longitude": "-111.901706", "elevation": "4248"}
     ,{"id": "CFRPI", "team": "t20", "name": "First Mile Brewing Co", "municipality": "Fort Kent", "region": "Maine", "latitude": "47.256785", "longitude": "-68.587013", "elevation": "538"}
