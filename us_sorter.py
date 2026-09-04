@@ -78,6 +78,7 @@ def process_usbrews(reference_data, lint_status):
         muni = place.get("municipality", "").strip()
         region = place.get("region", "").strip()
         p_id = place.get("id", "")
+        p_team = place.get("team", "unknown")
         name = place.get("name", "")
 
         if muni and region:
@@ -89,7 +90,7 @@ def process_usbrews(reference_data, lint_status):
                     "entries": [],
                 }
             location_claims[key]["entries"].append(
-                {"id": p_id, "name": name}
+                {"id": p_id, "team": p_team, "name": name}
             )
 
     duplicate_municipalities = []
@@ -127,7 +128,7 @@ def process_usbrews(reference_data, lint_status):
                     f"{idx}. {dup['municipality']}, {dup['region']} [{dup['status']}]:\n"
                 )
                 for entry in dup["entries"]:
-                    outfile.write(f"   - {entry['name']}\n")
+                    outfile.write(f"   - {entry['name']} | Team: {entry['team']}, ID: {entry['id']}\n")
                 outfile.write("\n")
         else:
             outfile.write("None found.\n")
