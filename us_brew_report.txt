@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 14:35 MT
+Most Recent Run : 2026-09-04 15:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Arkansas Brewing Company' (Location: Ozark, Arkansas follows Torrance, California)
 ============================================================
@@ -22,19 +22,15 @@ JSON Order Check: Order breaks down at 'Arkansas Brewing Company' (Location: Oza
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
 
-5. Ridgewood, New York [Duplicate Entry (Same User)]:
-   - Evil Twin Brewery NYC | Team: t25, ID: YL626
-   - Evil Twin Brewery NYC | Team: t25, ID: YL626
-
-6. Fargo, North Dakota [Duplicate Entry (Same User)]:
+5. Fargo, North Dakota [Duplicate Entry (Same User)]:
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
 
-7. Cheyenne, Wyoming [Duplicate Entry (Same User)]:
+6. Cheyenne, Wyoming [Duplicate Entry (Same User)]:
    - Black Tooth Brewing Company | Team: t14, ID: chelseaHansen
    - Black Tooth Brewing Company | Team: t14, ID: chelseaHansen
 
-8. Sandusky, Ohio [Duplicate Entry (Same User)]:
+7. Sandusky, Ohio [Duplicate Entry (Same User)]:
    - Bait House Brewery | Team: t18, ID: Intality
    - Bait House Brewery | Team: t18, ID: Intality
 
