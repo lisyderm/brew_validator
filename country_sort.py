@@ -4,6 +4,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import json
 import os
+import re
 import urllib.request
 
 # GitHub API URL for the file (not the raw.githubusercontent URL)
@@ -14,8 +15,8 @@ output_txt_path = "ww_brew_report.txt"
 
 
 def load_and_lint_private_reference_data():
-    """Fetches the private file from GitHub and validates its JSON syntax (like JSONLint)."""
-    token = os.environ.get("GH_PAT")  # Pulls the secret from environment variables
+    """Fetches wwbrews.json, validates syntax, and falls back to recovery if broken."""
+    token = os.environ.get("GH_PAT")
 
     req = urllib.request.Request(api_url)
     if token:
@@ -27,24 +28,41 @@ def load_and_lint_private_reference_data():
             api_data = json.loads(response.read().decode())
             file_content = base64.b64decode(api_data["content"]).decode("utf-8")
 
-        # Perform JSON Lint / Syntax Check
+        # 1. Try strict JSON load
         try:
             parsed_json = json.loads(file_content)
             lint_status = "JSON Syntax Check (JSONLint): PASSED (Valid JSON)"
-            return parsed_json, lint_status
+            return parsed_json.get("places", []), lint_status
         except json.JSONDecodeError as jde:
-            lint_status = f"JSON Syntax Check (JSONLint): FAILED -> {jde}"
-            return None, lint_status
+            # 2. Try automatic recovery (fixing trailing commas)
+            cleaned_content = re.sub(r',\s*([\]}])', r'\1', file_content)
+            try:
+                parsed_json = json.loads(cleaned_content)
+                lint_status = f"JSON Syntax Check (JSONLint): FAILED (Recovered via trailing comma fix) -> {jde}"
+                return parsed_json.get("places", []), lint_status
+            except json.JSONDecodeError:
+                # 3. Fallback: Extract via regex so report generation doesn't block
+                lint_status = f"JSON Syntax Check (JSONLint): FAILED -> {jde} (Using fallback parser)"
+                places = []
+                matches = re.findall(r"\{([^}]+)\}", file_content, re.DOTALL)
+                for block in matches:
+                    id_match = re.search(r'"id"\s*:\s*"([^"]+)"', block)
+                    country_match = re.search(r'"country"\s*:\s*"([^"]+)"', block)
+                    if id_match and country_match:
+                        places.append(
+                            {
+                                "id": id_match.group(1),
+                                "country": country_match.group(1),
+                            }
+                        )
+                return places, lint_status
 
     except Exception as e:
-        lint_status = f"JSON Fetch Error: {e}"
-        return None, lint_status
+        return [], f"JSON Fetch Error: {e}"
 
 
-def process_countries(csv_path, reference_data, lint_status):
-    """Reads the CSV and JSON, matches them, flags duplicates, and writes an anonymized text report."""
-    places = reference_data.get("places", [])
-
+def process_countries(csv_path, places, lint_status):
+    """Reads the CSV and parsed places, matches them, flags duplicates, and writes the report."""
     # 1. Check if countries in JSON places are in alphabetical order
     alphabetical_check_msg = (
         "JSON Order Check: All countries are in alphabetical order."
@@ -54,7 +72,6 @@ def process_countries(csv_path, reference_data, lint_status):
         next_country = places[i + 1].get("country", "").strip()
 
         if curr_country.lower() > next_country.lower():
-            # Order breaks down here. Look for brewery/place name fields or fallback to ID
             offending_place = places[i + 1]
             brewery_name = (
                 offending_place.get("name")
@@ -85,7 +102,7 @@ def process_countries(csv_path, reference_data, lint_status):
         print(f"Error: Could not find the CSV file at '{csv_path}'.")
         return None
 
-    # 3. Group JSON places by country (to capture multiple claims/duplicates)
+    # 3. Group JSON places by country
     json_claims = {}
     for place in places:
         c_name = place.get("country")
@@ -94,7 +111,9 @@ def process_countries(csv_path, reference_data, lint_status):
             clean_c = c_name.strip().lower()
             if clean_c not in json_claims:
                 json_claims[clean_c] = []
-            json_claims[clean_c].append({"id": p_id, "original_name": c_name.strip()})
+            json_claims[clean_c].append(
+                {"id": p_id, "original_name": c_name.strip()}
+            )
 
     # 4. Categorize data
     matched_countries = []
@@ -102,19 +121,16 @@ def process_countries(csv_path, reference_data, lint_status):
     duplicate_countries = []
     unmatched_json_rows = []
 
-    # Check CSV countries against JSON claims (Taken Countries)
     for clean_c, orig_name in csv_original_names.items():
         if clean_c in json_claims:
             matched_countries.append(orig_name)
         else:
             unclaimed_rows.append(orig_name)
 
-    # Check for duplicates (> 1 claim in JSON)
     for clean_c, claims in json_claims.items():
         if len(claims) > 1:
             duplicate_countries.append(claims[0]["original_name"])
 
-    # Check for JSON countries that are NOT in the CSV
     for clean_c, claims in json_claims.items():
         if clean_c not in csv_countries:
             unmatched_json_rows.append(claims[0]["original_name"])
@@ -124,7 +140,7 @@ def process_countries(csv_path, reference_data, lint_status):
         "%Y-%m-%d %H:%M"
     )
 
-    # 5. Write the structured report to a text file
+    # 5. Write the structured report
     with open(output_txt_path, mode="w", encoding="utf-8") as outfile:
         # Header with Timestamp, JSONLint status, and Alphabetical Check
         outfile.write(f"Most Recent Run : {run_timestamp} MT\n")
@@ -142,7 +158,9 @@ def process_countries(csv_path, reference_data, lint_status):
             outfile.write("None found.\n")
 
         # Section 2: Unmatched JSON
-        outfile.write("\n\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)\nList includes common name variants to match list entries through 8am Sept 3rd\n")
+        outfile.write(
+            "\n\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)\nList includes common name variants to match list entries through 8am Sept 3rd\n"
+        )
         outfile.write("-" * 30 + "\n")
         if unmatched_json_rows:
             for idx, country in enumerate(unmatched_json_rows, start=1):
@@ -166,10 +184,9 @@ def process_countries(csv_path, reference_data, lint_status):
 
 
 if __name__ == "__main__":
-    print("Loading and linting remote reference data via API...")
-    ref_data, lint_status = load_and_lint_private_reference_data()
+    print(
+        "Loading and linting remote reference data via API with resilient parsing..."
+    )
+    places, lint_status = load_and_lint_private_reference_data()
 
-    if ref_data:
-        process_countries(input_csv_path, ref_data, lint_status)
-    else:
-        print(f"Aborting process due to error: {lint_status}")
+    process_countries(input_csv_path, places, lint_status)
