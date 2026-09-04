@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 10:35 MT
+Most Recent Run : 2026-09-04 11:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing' (Location: None, Arizona follows Glendale, Arizona)
 ============================================================
@@ -9,28 +9,32 @@ JSON Order Check: Order breaks down at 'Dark Sky Brewing' (Location: None, Arizo
    - New Belgium Brewing Company
    - New Belgium Brewing Company
 
-2. Petaluma, California [Duplicate Entry (Same User)]:
-   - Lagunitas Brewing Company
-   - Lagunitas Brewing Company
-
-3. Miami, Florida [Duplicate Entry (Same User)]:
+2. Miami, Florida [Duplicate Entry (Same User)]:
    - The Tank Brewing Co.
    - The Tank Brewing Co.
    - The Tank Brewing Co.
 
-4. Emporia, Kansas [Duplicate Entry (Same User)]:
+3. Emporia, Kansas [Duplicate Entry (Same User)]:
    - Radius Brewing Company
    - Radius Brewing Company
 
-5. Ridgewood, New York [Duplicate Entry (Same User)]:
+4. Ridgewood, New York [Duplicate Entry (Same User)]:
    - Evil Twin Brewery NYC
    - Evil Twin Brewery NYC
 
-6. Sandusky, Ohio [Duplicate Entry (Same User)]:
+5. Fargo, North Dakota [Duplicate Entry (Same User)]:
+   - Drekker Brewing Company
+   - Drekker Brewing Company
+
+6. Cheyenne, Wyoming [Duplicate Entry (Same User)]:
+   - Black Tooth Brewing Company
+   - Black Tooth Brewing Company
+
+7. Sandusky, Ohio [Duplicate Entry (Same User)]:
    - Bait House Brewery
    - Bait House Brewery
 
-7. San Francisco, California [Duplicate Entry (Same User)]:
+8. San Francisco, California [Duplicate Entry (Same User)]:
    - San Francisco Brewing Co.
    - San Francisco Brewing Co.
 
