@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 13:00 MT
+Most Recent Run : 2026-09-04 13:30 MT
 JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 87 column 218 (char 16438) (Using fallback parser)
 JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -41,10 +41,6 @@ JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'G
 9. Mexico:
    - Team: t20, ID: CDSG1987
    - Team: t21, ID: twistedcat767
-
-10. Poland:
-   - Team: t33, ID: kacperm37
-   - Team: t33, ID: kacperm37
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
