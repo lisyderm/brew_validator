@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 16:30 MT
+Most Recent Run : 2026-09-04 17:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -55,10 +55,7 @@ List includes common name variants to match list entries through 8am Sept 3rd
 3. Kosovo:
    - Team: t37, ID: broken-wrists
 
-4. Turkiye:
-   - Team: t26, ID: CengizBuegel
-
-5. Signapore:
+4. Signapore:
    - Team: t20, ID: CFRPI
 
 
@@ -183,11 +180,12 @@ List includes common name variants to match list entries through 8am Sept 3rd
 116. United Arab Emirates
 117. United Kingdom
 118. Uruguay
-119. Venezuela
-120. VietNam
-121. Wallis et Futuna
-122. Zambia
-123. Zimbabwe
+119. Vanuatu
+120. Venezuela
+121. VietNam
+122. Wallis et Futuna
+123. Zambia
+124. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
@@ -314,6 +312,5 @@ List includes common name variants to match list entries through 8am Sept 3rd
 120. United States of America
 121. United States Virgin Islands
 122. Uzbekistan
-123. Vanuatu
-124. Western Sahara (disputed)
-125. Yemen
+123. Western Sahara (disputed)
+124. Yemen
