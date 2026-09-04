@@ -1,40 +1,48 @@
-Most Recent Run : 2026-09-03 18:05 MT
+Most Recent Run : 2026-09-03 18:29 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at '8-Bit Aleworks' (Location: Avondale, Arizona follows Austin, Texas)
 ============================================================
 
 1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
 --------------------------------------------------
-1. Fort Collins, Colorado [Duplicate Entry (Same User)]:
+1. Santa Rosa, California [Duplicate Entry (Same User)]:
+   - Russian River Brewing Company
+   - Russian River Brewing Company
+
+2. Fort Collins, Colorado [Duplicate Entry (Same User)]:
    - New Belgium Brewing Company
    - New Belgium Brewing Company
 
-2. Petaluma, California [Duplicate Entry (Same User)]:
+3. Petaluma, California [Duplicate Entry (Same User)]:
    - Lagunitas Brewing Company
    - Lagunitas Brewing Company
 
-3. Miami, Florida [Duplicate Entry (Same User)]:
+4. Miami, Florida [Duplicate Entry (Same User)]:
    - The Tank Brewing Co.
    - The Tank Brewing Co.
    - The Tank Brewing Co.
 
-4. Chicago, Illinois [Conflict (Multiple Users)]:
+5. Chicago, Illinois [Conflict (Multiple Users)]:
    - Midwest Coast Brewing Company
    - Crushed By Giants Brewing Company
 
-5. Emporia, Kansas [Duplicate Entry (Same User)]:
+6. Emporia, Kansas [Duplicate Entry (Same User)]:
    - Radius Brewing Company
    - Radius Brewing Company
 
-6. Sandusky, Ohio [Duplicate Entry (Same User)]:
+7. Ridgewood, New York [Duplicate Entry (Same User)]:
+   - Evil Twin Brewery NYC
+   - Evil Twin Brewery NYC
+
+8. Sandusky, Ohio [Duplicate Entry (Same User)]:
    - Bait House Brewery
    - Bait House Brewery
 
-7. San Francisco, California [Duplicate Entry (Same User)]:
-   - San Francisco Brewing Co.
-   - San Francisco Brewing Co.
+9. Cheyenne, Wyoming [Duplicate Entry (Same User)]:
+   - Black Tooth Brewing Company
+   - Black Tooth Brewing Company
 
-8. Stowe, Vermont [Duplicate Entry (Same User)]:
-   - The Alchemist Brewery
-   - The Alchemist Brewery
+10. San Francisco, California [Duplicate Entry (Same User)]:
+   - San Francisco Brewing Co.
+   - San Francisco Brewing Co.
 
