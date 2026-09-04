@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-03 21:35 MT
+Most Recent Run : 2026-09-03 22:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing' (Location: None, Arizona follows Glendale, Arizona)
 ============================================================
@@ -30,11 +30,7 @@ JSON Order Check: Order breaks down at 'Dark Sky Brewing' (Location: None, Arizo
    - Bait House Brewery
    - Bait House Brewery
 
-7. Cheyenne, Wyoming [Duplicate Entry (Same User)]:
-   - Black Tooth Brewing Company
-   - Black Tooth Brewing Company
-
-8. San Francisco, California [Duplicate Entry (Same User)]:
+7. San Francisco, California [Duplicate Entry (Same User)]:
    - San Francisco Brewing Co.
    - San Francisco Brewing Co.
 
