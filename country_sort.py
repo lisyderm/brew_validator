@@ -149,7 +149,7 @@ def process_countries(csv_path, places, lint_status):
         outfile.write("=" * 60 + "\n\n")
 
         # Section 1: Duplicate Claims (Top)
-        outfile.write("1. DUPLICATE CLAIMS (Multiple people per country)\n")
+        outfile.write("1. DUPLICATES (duplicated rows OR Multiple people per country)\n")
         outfile.write("-" * 30 + "\n")
         if duplicate_countries:
             for idx, country in enumerate(duplicate_countries, start=1):
