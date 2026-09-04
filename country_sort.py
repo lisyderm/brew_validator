@@ -122,7 +122,7 @@ def process_countries(csv_path, places, lint_status):
     matched_countries = []
     unclaimed_rows = []
     duplicate_groups = []
-    unmatched_json_rows = []
+    unmatched_json_groups = []
 
     for clean_c, orig_name in csv_original_names.items():
         if clean_c in json_claims:
@@ -136,7 +136,7 @@ def process_countries(csv_path, places, lint_status):
 
     for clean_c, claims in json_claims.items():
         if clean_c not in csv_countries:
-            unmatched_json_rows.append(claims[0]["original_name"])
+            unmatched_json_groups.append(claims)
 
     # Generate current timestamp in Mountain Time
     run_timestamp = datetime.now(ZoneInfo("America/Denver")).strftime(
@@ -164,14 +164,18 @@ def process_countries(csv_path, places, lint_status):
         else:
             outfile.write("None found.\n")
 
-        # Section 2: Unmatched JSON
+        # Section 2: Unmatched JSON - Detailed with team & id
         outfile.write(
             "\n2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)\nList includes common name variants to match list entries through 8am Sept 3rd\n"
         )
         outfile.write("-" * 30 + "\n")
-        if unmatched_json_rows:
-            for idx, country in enumerate(unmatched_json_rows, start=1):
-                outfile.write(f"{idx}. {country}\n")
+        if unmatched_json_groups:
+            for idx, group in enumerate(unmatched_json_groups, start=1):
+                country_name = group[0]["original_name"]
+                outfile.write(f"{idx}. {country_name}:\n")
+                for entry in group:
+                    outfile.write(f"   - Team: {entry['team']}, ID: {entry['id']}\n")
+                outfile.write("\n")
         else:
             outfile.write("None found.\n")
 
