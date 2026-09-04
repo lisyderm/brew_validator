@@ -1,5 +1,5 @@
-Most Recent Run : 2026-09-04 09:00 MT
-JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 86 column 218 (char 16246) (Using fallback parser)
+Most Recent Run : 2026-09-04 09:30 MT
+JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 87 column 218 (char 16438) (Using fallback parser)
 JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'Guatemala')
 ============================================================
 
@@ -23,10 +23,11 @@ List includes common name variants to match list entries through 8am Sept 3rd
 ------------------------------
 1. England
 2. Hon Duras
-3. Kosovo
-4. Turkiye
-5. Wallis et Futuna
-6. Signapore
+3. North Korea
+4. Kosovo
+5. Turkiye
+6. Wallis et Futuna
+7. Signapore
 
 
 3. TAKEN COUNTRIES
