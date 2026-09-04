@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 11:13 MT
+Most Recent Run : 2026-09-04 11:17 MT
 JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 87 column 218 (char 16438) (Using fallback parser)
 JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -50,11 +50,21 @@ JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'G
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
 List includes common name variants to match list entries through 8am Sept 3rd
 ------------------------------
-1. England
-2. Hon Duras
-3. Kosovo
-4. Turkiye
-5. Signapore
+1. England:
+   - Team: t20, ID: Ian-CS-F
+
+2. Hon Duras:
+   - Team: t30, ID: Ckclarkboy
+
+3. Kosovo:
+   - Team: t37, ID: broken-wrists
+
+4. Turkiye:
+   - Team: t26, ID: CengizBuegel
+
+5. Signapore:
+   - Team: t20, ID: CFRPI
+
 
 
 3. TAKEN COUNTRIES
