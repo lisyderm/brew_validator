@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 10:00 MT
+Most Recent Run : 2026-09-04 10:30 MT
 JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 87 column 218 (char 16438) (Using fallback parser)
 JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -115,43 +115,44 @@ List includes common name variants to match list entries through 8am Sept 3rd
 81. New Zealand
 82. Nigeria
 83. Norway
-84. Panama
-85. Papua New Guinea
-86. Peru
-87. Philippines
-88. Poland
-89. Portugal
-90. Puerto Rico
-91. South Korea
-92. Romania
-93. Russia
-94. Rwanda
-95. Samoa
-96. San Marino
-97. Senegal
-98. Sierra Leone
-99. Singapore
-100. Slovakia
-101. Slovenia
-102. South Africa
-103. South Sudan
-104. Spain
-105. Sweden
-106. Switzerland
-107. Tajikistan
-108. Thailand
-109. Trinidad and Tobago
-110. Tunisia
-111. Turkey
-112. Uganda
-113. Ukraine
-114. United Arab Emirates
-115. United Kingdom
-116. Uruguay
-117. Venezuela
-118. VietNam
-119. Zambia
-120. Zimbabwe
+84. Pakistan
+85. Panama
+86. Papua New Guinea
+87. Peru
+88. Philippines
+89. Poland
+90. Portugal
+91. Puerto Rico
+92. South Korea
+93. Romania
+94. Russia
+95. Rwanda
+96. Samoa
+97. San Marino
+98. Senegal
+99. Sierra Leone
+100. Singapore
+101. Slovakia
+102. Slovenia
+103. South Africa
+104. South Sudan
+105. Spain
+106. Sweden
+107. Switzerland
+108. Tajikistan
+109. Thailand
+110. Trinidad and Tobago
+111. Tunisia
+112. Turkey
+113. Uganda
+114. Ukraine
+115. United Arab Emirates
+116. United Kingdom
+117. Uruguay
+118. Venezuela
+119. VietNam
+120. Zambia
+121. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
@@ -240,47 +241,46 @@ List includes common name variants to match list entries through 8am Sept 3rd
 82. North Macedonia
 83. Northern Mariana Islands
 84. Oman
-85. Pakistan
-86. Palau
-87. Paraguay
-88. Pitcairn [Pitcairn Islands]
-89. Qatar
-90. Republic of Moldova
-91. Reunion
-92. Saint Barthelemy
-93. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
-94. Saint Kitts and Nevis
-95. Saint Lucia
-96. Saint Martin (French part)
-97. Saint Pierre and Miquelon
-98. Saint Vincent and the Grenadines
-99. Sao Tome and Principe
-100. Saudi Arabia
-101. Serbia
-102. Seychelles
-103. Sint Maarten
-104. Solomon Islands
-105. Somalia
-106. South Georgia and the South Sandwich Islands
-107. Sri Lanka
-108. State of Palestine
-109. Sudan
-110. Suriname
-111. Svalbard and Jan Mayen Islands
-112. Syrian Arab Republic
-113. Timor-Leste [East Timor]
-114. Togo
-115. Tokelau
-116. Tonga
-117. Turkmenistan
-118. Turks and Caicos Islands
-119. Tuvalu
-120. United Republic of Tanzania
-121. United States Minor Outlying Islands
-122. United States of America
-123. United States Virgin Islands
-124. Uzbekistan
-125. Vanuatu
-126. Wallis and Futuna Islands
-127. Western Sahara (disputed)
-128. Yemen
+85. Palau
+86. Paraguay
+87. Pitcairn [Pitcairn Islands]
+88. Qatar
+89. Republic of Moldova
+90. Reunion
+91. Saint Barthelemy
+92. Saint Helena [Saint Helena, Ascension and Tristan da Cunha]
+93. Saint Kitts and Nevis
+94. Saint Lucia
+95. Saint Martin (French part)
+96. Saint Pierre and Miquelon
+97. Saint Vincent and the Grenadines
+98. Sao Tome and Principe
+99. Saudi Arabia
+100. Serbia
+101. Seychelles
+102. Sint Maarten
+103. Solomon Islands
+104. Somalia
+105. South Georgia and the South Sandwich Islands
+106. Sri Lanka
+107. State of Palestine
+108. Sudan
+109. Suriname
+110. Svalbard and Jan Mayen Islands
+111. Syrian Arab Republic
+112. Timor-Leste [East Timor]
+113. Togo
+114. Tokelau
+115. Tonga
+116. Turkmenistan
+117. Turks and Caicos Islands
+118. Tuvalu
+119. United Republic of Tanzania
+120. United States Minor Outlying Islands
+121. United States of America
+122. United States Virgin Islands
+123. Uzbekistan
+124. Vanuatu
+125. Wallis and Futuna Islands
+126. Western Sahara (disputed)
+127. Yemen
