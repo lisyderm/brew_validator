@@ -1,18 +1,17 @@
-Most Recent Run : 2026-09-03 20:00 MT
-JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 6 column 5 (char 272) (Using fallback parser)
-JSON Order Check: Order breaks down at 'lisyderm' (Country: 'Albania' follows 'Norway')
+Most Recent Run : 2026-09-03 20:18 MT
+JSON Syntax Check (JSONLint): PASSED (Valid JSON)
+JSON Order Check: Order breaks down at 'Complexo Bohemia' (Country: 'Brazil' follows 'Guatemala')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
 ------------------------------
-1. Norway
-2. Belgium
-3. Canada
-4. Denmark
-5. Germany
-6. Ireland
-7. Italy
-8. Japan
+1. Belgium
+2. Canada
+3. Denmark
+4. Germany
+5. Ireland
+6. Italy
+7. Japan
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
