@@ -1,6 +1,6 @@
-Most Recent Run : 2026-09-04 15:30 MT
-JSON Syntax Check (JSONLint): FAILED -> Expecting ',' delimiter: line 87 column 218 (char 16438) (Using fallback parser)
-JSON Order Check: Order breaks down at 'vertumnal' (Country: 'Canada' follows 'Guatemala')
+Most Recent Run : 2026-09-04 15:47 MT
+JSON Syntax Check (JSONLint): PASSED (Valid JSON)
+JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
