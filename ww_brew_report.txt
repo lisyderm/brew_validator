@@ -1,35 +1,31 @@
-Most Recent Run : 2026-09-05 08:30 MT
+Most Recent Run : 2026-09-05 09:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
 ------------------------------
-1. Belgium:
-   - Team: t13, ID: alexisharing
-   - Team: t13, ID: alexisharing
-
-2. Canada:
+1. Canada:
    - Team: t34, ID: Ethan-Rose-colostate
    - Team: t14, ID: vertumnal
 
-3. France:
+2. France:
    - Team: t33, ID: AbdoulKadre
    - Team: t33, ID: AbdoulKadre
 
-4. Germany:
+3. Germany:
    - Team: t37, ID: Adgo2610-ai
    - Team: t33, ID: Hayden-Albrecht
 
-5. India:
+4. India:
    - Team: t25, ID: kianjiang9
    - Team: t35, ID: ykcirr
 
-6. Italy:
+5. Italy:
    - Team: t22, ID: Calvin375
    - Team: t33, ID: voncowenhoven
 
-7. Japan:
+6. Japan:
    - Team: t33, ID: nhartawan
    - Team: t16, ID: Bacolo12
    - Team: t33, ID: nhartawan
