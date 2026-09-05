@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 17:30 MT
+Most Recent Run : 2026-09-04 18:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -37,10 +37,6 @@ JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Gu
    - Team: t33, ID: nhartawan
    - Team: t16, ID: Bacolo12
    - Team: t33, ID: nhartawan
-
-9. Poland:
-   - Team: t33, ID: kacperm37
-   - Team: t33, ID: kacperm37
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
