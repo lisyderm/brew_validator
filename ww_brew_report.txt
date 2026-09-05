@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-04 18:30 MT
+Most Recent Run : 2026-09-04 19:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
 ============================================================
@@ -18,8 +18,8 @@ JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Gu
    - Team: t33, ID: AbdoulKadre
 
 4. Germany:
-   - Team: t33, ID: Hayden-Albrecht
    - Team: t37, ID: Adgo2610-ai
+   - Team: t33, ID: Hayden-Albrecht
 
 5. India:
    - Team: t25, ID: kianjiang9
