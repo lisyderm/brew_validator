@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-05 14:05 MT
+Most Recent Run : 2026-09-05 14:35 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: None, Arizona follows Avondale, Arizona)
 ============================================================
@@ -9,24 +9,32 @@ JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: Non
    - San Francisco Brewing Co. | Team: t30, ID: Saad05Ali
    - San Francisco Brewing Co. | Team: t30, ID: Saad05Ali
 
-2. Miami, Florida [Duplicate Entry (Same User)]:
+2. Petaluma, California [Duplicate Entry (Same User)]:
+   - Lagunitas Brewing Company | Team: t13, ID: alexisharing
+   - Lagunitas Brewing Company | Team: t13, ID: alexisharing
+
+3. Miami, Florida [Duplicate Entry (Same User)]:
    - The Tank Brewing Co. | Team: t29, ID: snaranjo19
    - The Tank Brewing Co. | Team: t29, ID: snaranjo19
    - The Tank Brewing Co. | Team: t29, ID: snaranjo19
 
-3. Emporia, Kansas [Duplicate Entry (Same User)]:
+4. Chicago, Illinois [Duplicate Entry (Same User)]:
+   - Crushed By Giants Brewing Company | Team: t33, ID: kacperm37
+   - Crushed By Giants Brewing Company | Team: t33, ID: kacperm37
+
+5. Emporia, Kansas [Duplicate Entry (Same User)]:
    - Radius Brewing Company | Team: t36, ID: mburns45
    - Radius Brewing Company | Team: t36, ID: mburns45
 
-4. Lexington, Kentucky [Duplicate Entry (Same User)]:
+6. Lexington, Kentucky [Duplicate Entry (Same User)]:
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
 
-5. Fargo, North Dakota [Duplicate Entry (Same User)]:
+7. Fargo, North Dakota [Duplicate Entry (Same User)]:
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
 
-6. Sandusky, Ohio [Duplicate Entry (Same User)]:
+8. Sandusky, Ohio [Duplicate Entry (Same User)]:
    - Bait House Brewery | Team: t18, ID: Intality
    - Bait House Brewery | Team: t18, ID: Intality
 
