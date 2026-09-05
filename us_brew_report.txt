@@ -1,6 +1,6 @@
-Most Recent Run : 2026-09-04 18:35 MT
+Most Recent Run : 2026-09-04 19:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
-JSON Order Check: Order breaks down at 'Arkansas Brewing Company' (Location: Ozark, Arkansas follows Torrance, California)
+JSON Order Check: Order breaks down at 'Arkansas Brewing Company' (Location: Ozark, Arkansas follows Redondo Beach, California)
 ============================================================
 
 1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
