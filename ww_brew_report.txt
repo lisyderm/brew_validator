@@ -1,6 +1,6 @@
-Most Recent Run : 2026-09-05 14:00 MT
+Most Recent Run : 2026-09-05 14:30 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
-JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Guatemala')
+JSON Order Check: Order breaks down at 'Fábrica de Cerveza Bucanero' (Country: '' follows 'Croatia')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
@@ -13,19 +13,11 @@ JSON Order Check: Order breaks down at 'NuBrewCo' (Country: 'Canada' follows 'Gu
    - Team: t33, ID: AbdoulKadre
    - Team: t33, ID: AbdoulKadre
 
-3. Germany:
-   - Team: t37, ID: Adgo2610-ai
-   - Team: t33, ID: Hayden-Albrecht
-
-4. India:
+3. India:
    - Team: t25, ID: kianjiang9
    - Team: t35, ID: ykcirr
 
-5. Italy:
-   - Team: t22, ID: Calvin375
-   - Team: t33, ID: voncowenhoven
-
-6. Japan:
+4. Japan:
    - Team: t33, ID: nhartawan
    - Team: t16, ID: Bacolo12
    - Team: t33, ID: nhartawan
@@ -43,7 +35,10 @@ List includes common name variants to match list entries through 8am Sept 3rd
 3. Kosovo:
    - Team: t37, ID: broken-wrists
 
-4. Signapore:
+4. Moldova:
+   - Team: t39, ID: LarryOrnelas
+
+5. Signapore:
    - Team: t20, ID: CFRPI
 
 
