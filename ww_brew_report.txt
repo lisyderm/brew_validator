@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-06 14:30 MT
+Most Recent Run : 2026-09-06 15:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Botswana')
 ============================================================
@@ -26,13 +26,10 @@ JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Boliv
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
 List includes common name variants to match list entries through 8am Sept 3rd
 ------------------------------
-1. England:
-   - Team: t20, ID: Ian-CS-F
-
-2. Kosovo:
+1. Kosovo:
    - Team: t37, ID: broken-wrists
 
-3. Moldova:
+2. Moldova:
    - Team: t39, ID: LarryOrnelas
 
 
@@ -161,13 +158,14 @@ List includes common name variants to match list entries through 8am Sept 3rd
 120. Ukraine
 121. United Arab Emirates
 122. United Kingdom
-123. Uruguay
-124. Vanuatu
-125. Venezuela
-126. VietNam
-127. Wallis et Futuna
-128. Zambia
-129. Zimbabwe
+123. United Republic of Tanzania
+124. Uruguay
+125. Vanuatu
+126. Venezuela
+127. VietNam
+128. Wallis et Futuna
+129. Zambia
+130. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
@@ -284,10 +282,9 @@ List includes common name variants to match list entries through 8am Sept 3rd
 110. Turkmenistan
 111. Turks and Caicos Islands
 112. Tuvalu
-113. United Republic of Tanzania
-114. United States Minor Outlying Islands
-115. United States of America
-116. United States Virgin Islands
-117. Uzbekistan
-118. Western Sahara (disputed)
-119. Yemen
+113. United States Minor Outlying Islands
+114. United States of America
+115. United States Virgin Islands
+116. Uzbekistan
+117. Western Sahara (disputed)
+118. Yemen
