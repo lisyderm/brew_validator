@@ -1,32 +1,19 @@
-Most Recent Run : 2026-09-06 12:35 MT
+Most Recent Run : 2026-09-06 13:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: None, Arizona follows Avondale, Arizona)
 ============================================================
 
 1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
 --------------------------------------------------
-1. San Francisco, California [Duplicate Entry (Same User)]:
-   - San Francisco Brewing Co. | Team: t30, ID: Saad05Ali
-   - San Francisco Brewing Co. | Team: t30, ID: Saad05Ali
-
-2. Miami, Florida [Duplicate Entry (Same User)]:
-   - The Tank Brewing Co. | Team: t29, ID: snaranjo19
-   - The Tank Brewing Co. | Team: t29, ID: snaranjo19
-   - The Tank Brewing Co. | Team: t29, ID: snaranjo19
-
-3. Emporia, Kansas [Duplicate Entry (Same User)]:
+1. Emporia, Kansas [Duplicate Entry (Same User)]:
    - Radius Brewing Company | Team: t36, ID: mburns45
    - Radius Brewing Company | Team: t36, ID: mburns45
 
-4. Lexington, Kentucky [Duplicate Entry (Same User)]:
+2. Lexington, Kentucky [Duplicate Entry (Same User)]:
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
 
-5. Fargo, North Dakota [Duplicate Entry (Same User)]:
+3. Fargo, North Dakota [Duplicate Entry (Same User)]:
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
-
-6. Sandusky, Ohio [Duplicate Entry (Same User)]:
-   - Bait House Brewery | Team: t18, ID: Intality
-   - Bait House Brewery | Team: t18, ID: Intality
 
