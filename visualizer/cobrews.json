@@ -1,0 +1,145 @@
+{
+  "places": [
+    {"id": "davemattcsu", "team": "t00", "name": "Steamworks Brewing Company", "municipality": "Durango", "latitude": "37.278887", "longitude": "-107.873908", "elevation": "6529"}
+    , {"id": "vertumnal", "team": "t14", "name": "Floodstage Ale Works", "municipality": "Brighton", "latitude": "39.984058", "longitude": "-104.821931", "elevation": "5003"}
+    ,{"id": "CFRPI", "team": "t20", "name": "Storm Peak Brewing Bus Stop", "municipality": "Steamboat Springs", "latitude": "40.458435", "longitude": "-106.806548", "elevation": "7009"}
+    , {"id": "Mrwood223", "team": "t27", "name" : "New Belgium Brewing Company", "municipality": "Fort Collins", "latitude": "40.598857975276616", "longitude": "-105.06862666804169", "elevation": "4982"}
+    , {"id": "chrislesher", "team": "t12", "name": "Green Mountain Beer Company", "municipality": "Lakewood", "latitude": "39.669903", "longitude": "-105.113909", "elevation": "5506"}
+    , {"id": "emersontomlinson", "team": "t12", "name": "Colorado Boy Pub & Brewery", "municipality": "Ridgway", "latitude": "38.152258", "longitude": "-107.757608", "elevation": "7018"}
+    , {"id": "CSUHwinkler", "team": "t12", "name": "Avery Brewing Company", "municipality": "Boulder", "latitude": "40.0622", "longitude": "-105.2050", "elevation": "5180"}
+    , {"id": "isaacruss", "team": "t12", "name": "Crabtree Brewing Company", "municipality": "Greeley", "latitude": "40.390827", "longitude": "-104.726538", "elevation": "4676"}
+    , {"id": "Isaac-Nelson", "team": "t29", "name": "Aspen Brewing Company", "municipality": "Aspen", "latitude": "39.189925", "longitude": "-106.818422", "elevation": "7930"}
+    , {"id": "rcarpen1124", "team": "t22", "name": "Northern Colorado Brewhouse", "municipality": "Greeley", "latitude": "40.422982", "longitude": "-104.690730", "elevation": "4675"}
+    , {"id": "ColeRechsteiner", "team": "t15", "name": "Highside Brewing and BBQ", "municipality": "Breckenridge", "latitude": "39.484861", "longitude": "-106.046400", "elevation": "9560"}
+    ,{"id": "Dami359", "team": "t38", "name": "Old Colorado Brewing Company", "municipality": "Wellington", "latitude": "40.7042", "longitude": "-105.0073", "elevation": "5200"}
+    , {"id": "Adgo2610-ai", "team": "t37", "name": "WestCo Brewing", "municipality": "Grand Junction", "latitude": "39.055022", "longitude": "-108.557242", "elevation": "4600"}
+    , {"id": "ybenchouaf", "team": "t18", "name": "Our Mutual Friend Brewing", "municipality": "Denver", "latitude": "39.7605777", "longitude": "-104.9825596", "elevation": "5202"}
+    , {"id": "oliviamcjunkins", "team": "t19", "name": "Black Forest Brewing Company", "municipality": "Black Forest", "latitude": "39.0000306", "longitude": "-104.7007889", "elevation": "2238"}
+    , {"id": "Ian-CS-F", "team": "t20", "name": "Dolores River Brewery", "municipality": "Dolores", "latitude": "37.47355", "longitude": "-108.50472", "elevation": "6929"}
+    , {"id": "sbrossard", "team": "t32", "name": "Gravity Brewing", "municipality": "Louisville", "latitude": "39.976083", "longitude": "-105.128639", "elevation": "5348"}
+    ,{"id": "Mariamee123", "team" : "t12", "name" : "300 Suns Brewing", "municipality": "Longmont", "latitude" : "40.159927", "longitude": "-105.101278", "elevation": "4963"}
+    ,{"id": "AbbyGuan", "team": "t31", "name" : "Big Choice Brewing", "municipality": "Brighton", "latitude" : "40.000839", "longitude": "-104.907435", "elevation": "5101"}
+    ,{"id": "CSUJacob", "team": "t25", "name": "Downhill Brewing Company", "municipality": "Parker", "latitude": "39.527061", "longitude": "-104.770234", "elevation": "5837"}
+    , {"id": "ColoRourke", "team": "t22", "name": "Breckenridge Brewery", "municipality": "Littleton", "latitude": "39.59245", "longitude": "-105.02193", "elevation": "5351"}
+    , {"id": "Zeph1001", "team": "t25", "name": "BJs Restaurant & Brewery Boulder", "municipality": "Boulder", "latitude": "40.0177898", "longitude": "-105.257845", "elevation": "5287"}
+    , {"id": "mburns45", "team": "t36", "name": "Bristol Brewing Company", "municipality": "Colorado Springs", "latitude": "38.811203", "longitude": "-104.827592", "elevation": "5988"}
+    , {"id": "Tulawos", "team": "t26", "name": "Comrade Brewing Company", "municipality": "Denver", "latitude": "39.67571333818718", "longitude": "-104.89837549631356", "elevation": "5464"}
+    , {"id": "RyanTrinh2", "team": "t20", "name": "High Alpine Brewing Company", "municipality": "Gunnison", "latitude": "38.5447", "longitude": "106.9270", "elevation": "7706"}
+    , {"id": "acapasso90", "team": "t19", "name": "Launch Pad Brewery", "municipality": "Aurora", "latitude": "39.700950", "longitude": "-104.789961", "elevation": "5417"}
+    , {"id": "snaranjo19", "team": "t29", "name": "Goat Patch Brewing Company", "municipality": "Monument", "latitude": "39.096028", "longitude": "-104.860239", "elevation": "6982"}
+    ,{"id": "tylersnow-dev", "team": "t18", "name": "City Star Brewing", "municipality": "Berthoud", "latitude": "40.305058", "longitude": "-105.078961", "elevation": "5033"}
+    , {"id": "finndotexe", "team": "t21", "name": "Zwei Brewing", "municipality": "Fort Collins", "latitude": "40.5227677", "longitude": "-105.0783994", "elevation": "5046"}
+    ,{"id": "Just-Sean", "team": "t11", "name": "Verboten Brewing", "municipality": "Loveland", "latitude": "40.396647", "longitude": "-105.075101", "elevation": "4982"}
+    , {"id": "Chris8992", "team": "t18", "name": "Gunslinger Brewing", "municipality": "Colorado Springs", "latitude": "38.832664", "longitude": "-104.818903", "elevation": "6003"}
+    , {"id": "ZaleyD", "team": "t21", "name": "Peaks N Pines Brewery", "municipality": "Colorado Springs", "latitude": "38.8896479", "longitude": "-104.7106523", "elevation": "6521"}
+    , {"id": "JaydenYang-COLOSTATE", "team": "t13", "name": "Cannonball Creek Brewing Company", "municipality": "Golden", "latitude": "39.7574", "longitude": "-105.2215", "elevation": "5700"}
+    , {"id": "Intality", "team": "t18", "name": "Smoking River Brewing Company", "municipality": "Meeker", "latitude": "40.03804324179284", "longitude": "-107.9058296496834", "elevation": "6240"}
+    ,{"id": "ASTNTN", "team": "t27", "name": "Whistle Pig Brewing", "municipality": "Colorado Springs", "latitude": "38.86297", "longitude": "-104.810703", "elevation": "6132"}
+    , {"id": "BrandonSenacsu", "team": "t11", "name": "Kokopelli Beer Company", "municipality": "Westminster", "latitude": "39.858644", "longitude": "-105.065217", "elevation": "5466"}
+    , {"id": "Jellypoff", "team": "t25", "name": "WeldWerks Brewing Company", "municipality" : "Greeley", "latitude": "40.428044", "longitude": "104.690457", "elevation": "4670" }
+    ,{"id": "pkroberg", "team": "t19", "name": "Gilded Goat Brewing Company", "municipality": "Fort Collins", "latitude": "40.539684", "longitude": "-105.075380", "elevation": "5003"}
+    ,{"id": "braptus", "team": "t32", "name": "World's End Brewing Company", "municipality": "Canon City", "latitude": "38.4400310", "longitude": "-105.2424379", "elevation": "5354"}
+    , {"id": "Peepwaffle", "team": "t37", "name": "Kip's Grill Brewery Creede", "municipality": "Creede", "latitude": "50.9812", "longitude": "55.5535", "elevation": "2691"}
+    , {"id": "NickCasillas", "team": "t35", "name": "Two22 Brew", "municipality": "Centennial", "latitude": "39.635323", "longitude": "-104.759262", "elevation": "5810"}
+    , {"id": "lisyderm", "team": "t13", "name": "Animas Brewing Company", "municipality": "Durango", "latitude": "37.280055", "longitude": "-107.876957", "elevation": "6518"}
+    , {"id": "LarryOrnelas06", "team": "t39", "name": "Eddyline Brewery and Taproom", "municipality": "Buena Vista", "latitude": "38.84057443592062", "longitude": "-106.13265959147098", "elevation": "7960"}
+    , {"id": "hndevine99", "team": "t39", "name": "Mountain Merman", "municipality": "La Veta", "latitude": "37.508016", "longitude": "-105.010340", "elevation": "7022" }
+    ,{"id": "tabcher", "team": "t23", "name": "Urban Animal Beer Co.", "municipality": "Colorado Springs", "latitude": "38.775370", "longitude": "-104.815483", "elevation": "5946"}
+    , {"id": "mattyonka", "team": "t36", "name": "Paramount BeerWerks", "municipality": "Wheat Ridge", "latitude": "39.75549293122691", "longitude": "-105.11031812765046", "elevation": "5459"}
+    ,{"id": "bella985-java", "team": "t23", "name" : "Outer Range Brewing Company", "municipality": "Frisco", "latitude": "39.589421", "longitude": "-106.099156", "elevation": "9075"}
+    ,{"id": "CengizBuegel", "team": "t26", "name" : "Ourayle House Brewery", "municipality": "Ouray", "latitude": "38.02422923438083", "longitude": "-107.67123576629187", "elevation": "7792"}
+    ,{"id": "Blake-Lindsay", "team": "t24", "name": "105 West at Garden of the Gods", "municipality": "Colorado Springs", "latitude": "38.897394", "longitude": "-104.854469", "elevation": "6373"}
+    ,{"id": "Hugelham", "team": "t30", "name": "Mancos Brewing Company", "municipality": "Mancos", "latitude": "37.348278791412156", "longitude": "-108.28310127376615", "elevation": "7089"} 
+    ,{"id": "moyram03", "team": "t27", "name" : "Colorado Mountain Brewery", "municipality": "Colorado Springs", "latitude": "38.9934320992857", "longitude": "-104.81179517132082", "elevation": "6667"}
+    ,{"id": "mahanyasbaira", "team": "t32", "name": "Grand Adventure Brewing Co.", "municipality": "Kremmling", "latitude": "40.0578", "longitude": "-106.3892", "elevation": "7313"}
+    ,{"id": "JustinDuran11", "team": "t18", "name": "4 Noses Brewing Company", "municipality": "Broomfield", "latitude": "39.906522", "longitude": "-105.098631", "elevation": "5505"}
+    ,{"id": "aeserro", "team": "t16", "name": "Six Capital Brewing", "municipality": "Aurora", "latitude": "39.68484370736698", "longitude": "-104.78254890568992", "elevation": "5400"}
+    ,{"id": "Bacolo12", "team": "t16", "name": "3 Freaks Brewery", "municipality": "Highlands Ranch", "latitude": "39.564906", "longitude": "-104.905988", "elevation": "5770"}
+    ,{"id": "Ckclarkboy", "team": "t30", "name": "Monolith Brewing", "municipality": "Denver", "latitude": "39.693398", "longitude": "-104.987140", "elevation": "5282"}
+    ,{"id": "barretthazen-cyber", "team": "t32", "name" : "High Hops Brewery", "municipality": "Windsor", "latitude": "38.40479462", "longitude": "-104.935669", "elevation": "4797"}
+    ,{"id": "betealaraya", "team": "t16", "name": "Yetters Brewing Company", "municipality": "Greeley", "latitude": "40.422292", "longitude": "-104.692839", "elevation": "4655"}
+    ,{"id": "asurovitz", "team": "t31", "name": "Cerebral Brewing", "municipality": "Denver", "latitude": "39.73975", "longitude": "-104.94545", "elevation": "5298"}
+    ,{"id": "cyotekino", "team": "t31", "name" : "Bruz Beers", "municipality": "Denver", "latitude": "39.490497", "longitude": "-105.0025333", "elevation": "5236"}
+    ,{"id": "MistaGoat05", "team": "t35", "name": "Peculier Brewing Co", "municipality": "Windsor", "latitude": "40.479582", "longitude": "-104.901002", "elevation": "4796"}
+    ,{"id": "GrantWooley", "team": "t37", "name" : "Phantom Canyon Brewing Company", "municipality": "Colorado Springs", "latitude": "38.834545", "longitude": "-104.824978", "elevation": "6012"}
+    ,{"id": "emersontwii", "team": "t35", "name": "Horse & Dragon Brewing Company", "municipality": "Fort Collins", "latitude": "40.589672", "longitude": "-105.045630", "elevation": "4940"}
+    ,{"id": "mayurb", "team": "t35", "name": "Reservoir Brewing", "municipality": "Pueblo", "latitude": "38.32290536858954", "longitude": "-104.74717140818922", "elevation": "5139"}
+    ,{"id": "Calvin375", "team": "t22", "name": "105 West Brewing Company", "municipality": "Castle Rock", "latitude": "39.381137", "longitude": "-104.867704", "elevation": "6150"}
+    ,{"id": "Hayden-Albrecht", "team": "t33", "name": "12Degree Brewing", "municipality": "Louisville", "latitude": "39.9782105115625", "longitude": "-105.1318936046353", "elevation": "5340"}
+    ,{"id": "minhhle705", "team": "t22", "name": "Odell Brewing Company", "municipality": "Fort Collins", "latitude": "40.58967083192473", "longitude": "-105.06332346053374", "elevation": "4961"}
+    ,{"id": "nickmarechal", "team": "t24", "name": "Bent Barley Brewing Company", "municipality": "Aurora", "latitude": "39.6039403", "longitude": "-104.7086029", "elevation": "5948"}
+    ,{"id": "Moonshammy", "team": "t27", "name": "Horsefly Brewing Company", "municipality": "Montrose", "latitude": "38.482840", "longitude": "-107.871378", "elevation": "5807"}
+    ,{"id": "Weston-Peatrowsky", "team": "t31", "name": "Ouray Brewery", "municipality": "Ouray", "latitude": "38.02307520048257", "longitude": "-107.67118263155427", "elevation": "7792"}
+    ,{"id": "alexisharing", "team": "t13", "name": "Bristol Brewing Company", "municipality": "Colorado Springs", "latitude": "38.811226", "longitude": "-104.827604", "elevation": "5963"}
+    ,{"id": "parker-77", "team": "t30", "name": "Estes Park Brewery", "municipality": "Estes Park", "latitude": "40.3714189", "longitude": "-105.5261210", "elevation": "7555"}
+    ,{"id": "mattboersma18", "team": "t22", "name": "Red Leg Brewing Company", "municipality": "Colorado Springs", "latitude": "38.8402174", "longitude": "-104.8594514", "elevation": "6480"}
+    ,{"id": "YL626", "team": "t25", "name": "LandLocked Ales", "municipality": "Lakewood", "latitude": "39.657737", "longitude": "-105.082976", "elevation": "5436"}
+    ,{"id": "awwad529", "team": "t23", "name": "HighSide", "municipality": "Fairplay", "latitude": "39.222611", "longitude": "-105.992381", "elevation": "9885"} 
+    ,{"id": "AliceEnck", "team": "t23", "name": "Carbondale Beer Works", "municipality": "Carbondale", "latitude": "39.40085", "longitude": "-107.21303", "elevation": "6189"}
+    ,{"id": "Ethan-Rose-colostate", "team": "t34", "name": "Prost Brewing", "municipality": "Northglen", "latitude": "39.890739622507944", "longitude": "-104.99085684816903", "elevation": "5406"}
+    ,{"id": "Obinna992", "team": "t38", "name": "New Terrain Brewing Company", "municipality": "Golden", "latitude": "39.78", "longitude": "-105.15", "elevation": "6560"} 
+    ,{"id": "Ethan-Rose-colostate", "team": "t34", "name": "Prost Brewing", "municipality": "Northglen", "latitude": "39.890739622507944", "longitude": "-104.99085684816903", "elevation": "5406"} 
+    ,{"id": "robml368", "team": "t34", "name": "Full Frame Beer & Coffee", "municipality": "Denver", "latitude": "39.75225", "longitude": "-104.99137", "elevation": "5213"} 
+    ,{"id": "pinecakes", "team": "t11", "name": "Strange Craft Beer Company", "municipality": "Denver", "latitude": "39.737233338530935", "longitude": "-105.01489239547372", "elevation": "5200"}
+    ,{"id": "Leafyuw", "team": "t26", "name": "Danico Brewing Company", "municipality": "Denver", "latitude": "39.8161306", "longitude": "-104.7726056", "elevation": "5348"}
+    ,{"id": "tuythoven", "team": "t19", "name": "Lost Friend Brewing Company", "municipality": "Colorado Springs", "latitude": "38.908841", "longitude": "-104.782344", "elevation": "6509"}
+    ,{"id": "Isabella-Wilhelmy", "team": "t38", "name": "Angry James Brewing Company", "municipality": "Silverthorne", "latitude": "39.63233", "longitude": "-106.07589", "elevation": "8760"}
+    ,{"id": "Julian-Rhino", "team": "t24", "name": "Oskar Blues Brewery", "municipality": "Longmont", "latitude": "40.138967", "longitude": "-105.121972", "elevation": "5013"}
+    ,{"id": "norabusbate", "team": "t23", "name": "Maxline Brewing", "municipality": "Fort Collins", "latitude": "40.548606", "longitude": "-105.077319", "elevation": "5020"}
+    ,{"id": "Andyhim", "team": "t39", "name": "New Terrain Brewing Company", "municipality": "Golden", "latitude": "39.779666", "longitude": "-105.186091", "elevation": "5669"}
+    ,{"id": "miloskud", "team": "t39", "name": "Dillon DAM Brewery", "municipality": "Dillon", "latitude": "39.627494", "longitude": "-106.060277", "elevation": "8893"}
+    ,{"id": "bqhorsfall", "team": "t36", "name": "Wackadoo Brewing", "municipality": "Colorado Springs", "latitude": "38.915889739990234", "longitude": "-104.86351776123047", "elevation": "6518"}
+    ,{"id": "jacobzier", "team": "t27", "name" : "Prost Brewing Co & Biergarten – Highlands Ranch" , "municipality" : "Highlands Ranch", "latitude": "39.56274958770148", "longitude" : "-104.98924854418189", "elevation" : "5700"}
+    ,{"id": "Zheng0124", "team": "t14", "name": "Brues Alehouse Brewing Company", "municipality": "Pueblo", "latitude": "38.26547133187133", "longitude": "-104.60981676266515", "elevation": "4700"}
+    ,{"id": "chelseaHansen", "team": "t14", "name": "Manitou Brewing Company", "municipality": "Manitou Springs", "latitude": "38.8567921", "longitude": "-104.9157379", "elevation": "6358"}
+    ,{"id": "jmartinez-04", "team": "t13", "name": "Bambei Brewing", "municipality": "Superior", "latitude": "39.956443", "longitude": "-105.163740", "elevation": "5467"}
+    ,{"id": "Saad05Ali", "team": "t30", "name": "The Sen Highland", "municipality": "Denver", "latitude": "39.760478", "longitude": "-105.024844", "elevation": "5331"}
+    ,{"id": "vishnupcolostate", "team": "t34", "name" : "Kukaro Brewing" , "municipality" : "Fort Morgan", "latitude": "40.248242", "longitude" : "-103.802464", "elevation" : "4330"}
+    ,{"id": "Philojyw", "team": "t15", "name": "Happy Lucky's Teahouse", "municipality": "Fort Collins", "latitude": "40.58876148585136", "longitude": "-105.07570901349537", "elevation": "5003"}
+    ,{"id": "liamsagal18", "team": "t19", "name": "Brew Zone Taproom", "municipality": "Rifle", "latitude": "39.531539", "longitude": "-107.783744", "elevation": "5519"}
+    ,{"id": "Joba19", "team": "t16", "name": "Rails End Beer Company", "municipality": "Broomfield", "latitude": "39.908458", "longitude": "-105.075186", "elevation": "5390"}
+    ,{"id": "nhartawan", "team": "t33", "name": "Fritz Family Brewers", "municipality": "Niwot", "latitude": "40.0998602", "longitude": "-105.1683986", "elevation": "5168"}
+    ,{"id": "Heron-i", "team": "t28", "name": "Parts and Labor Brewing Company", "municipality": "Sterling", "latitude": "40.624969", "longitude": "-103.209778", "elevation": "3937"}
+    ,{"id": "YA5H5555", "team": "t15", "name": "Steep Brewing and Coffee Company", "municipality": "Keystone", "latitude": "39.363190", "longitude": "-105.565258", "elevation": "9343"}
+    ,{"netid":"dpordsan","team":"t19","name":"Evergreen Brewery","municipality":"Evergreen","latitude": "40.660611", "longitude": "-105.35123","elevation":"7515"}
+    ,{"id": "alyssakbennett", "team": "t28", "name": "Gemini Beer Company", "municipality": "Grand Junction", "latitude": "39.069817", "longitude": "-108.559947", "elevation": "4629"}
+    ,{"id": "kianjiang9", "team": "t25", "name": "Cogstone Brewing Company", "municipality": "Colorado Springs", "latitude": "38.8799", "longitude": "-104.7554", "elevation": "6430"}
+    ,{"id": "broken-wrists", "team": "t37", "name": "OCC Brewing", "municipality": "Colorado Springs", "latitude": "38.845953", "longitude": "-104.860258", "elevation": "6084"}
+    ,{"id": "longmiler", "team": "t20", "name": "Bottom Shelf Brewery", "municipality": "Bayfield", "latitude": "37.225008", "longitude": "-107.599081", "elevation": "6892"}
+    ,{"id": "brisingr823", "team": "t15", "name": "Breckenridge Brewery & Pub", "municipality": "Breckenridge", "latitude": "39.283324", "longitude": "-106.023492", "elevation": "9650"}
+    ,{"id": "Owen-Pendleton", "team": "t35", "name": "Mash Lab Brewing & Kitchen", "municipality": "Windsor", "latitude": "40.438372", "longitude": "-104.968144", "elevation": "5031"}
+    ,{"id": "ykcirr", "team": "t35", "name": "ZoiglBräu", "municipality": "Aurora", "latitude": "39.652863", "longitude": "-104.812046", "elevation": "5725"}
+    ,{"id":"CSUAngel28", "team":"t28", "name": "WildEdge Brewing Collective", "municipality": "Cortez", "latitude": "37.3501", "longitude": "-108.5854", "elevation": "6181"}
+    ,{"id": "twistedcat767", "team": "t21", "name": "Wibby Brewing", "municipality": "Longmont", "latitude": "40.16247", "longitude": "-105.100197", "elevation": "4953"}
+    ,{"id": "Drew-Faga", "team": "t14", "Three Barrel Brewing Company": "", "municipality": "Del norte", "latitude": "37.678699033470785", "longitude": "-106.35658081472428", "elevation": "7886"}  
+    ,{"id": "pablodos", "team": "t21", "name": "Cabin Creek Brewing", "municipality": "Georgetown", "latitude": "39.7154", "longitude": "-105.6881", "elevation": "8520"}
+    ,{"id": "ManeeshkaThakurCSU", "team": "t38", "name": "HighSide Brewing (Fairplay)", "municipality": "Fairplay", "latitude": "39.2226", "longitude": "-105.992", "elevation": "9950"}
+    ,{"id": "kacperm37", "team": "t33", "name": "Vail Brewing Gypsum", "municipality": "Gypsum", "latitude": "39.6425145", "longitude": "-106.8929535", "elevation": "6312"}
+    ,{"id": "jaylinwhite", "team": "t17", "name": "Wynkoop Brewing Company", "municipality": "Denver", "latitude": "39.753523", "longitude": "-104.998489", "elevation": "5186"}
+    ,{"id": "bryanr-69", "team": "t24", "name": "Pomona Brewing Company", "municipality": "Montrose", "latitude": "38.4897", "longitude": "-107.8778", "elevation": "5790"}
+    ,{"id": "judsonandrew", "team": "t34", "name": "Smuggler Union Restaurant & Brewery", "municipality": "Telluride", "latitude": "37.935719", "longitude": "-107.811919", "elevation": "8750"}
+    ,{"id": "31773", "team": "t17", "name": "Rock N Roll Brewery", "municipality": "Longmont", "latitude": "40.805955", "longitude": "-104.552023", "elevation": "4913"}
+    ,{"id": "GedikEngin", "team": "t13", "name": "Tres Litros Beer Company", "municipality": "Salida", "latitude": "38.53603", "longitude": "-105.99064", "elevation": "7064"}
+    ,{"id": "zaneKauffman", "team": "t21", "name": "Great Divide Brewery", "municipality": "Castle Rock", "latitude": "39.371622", "longitude": "-104.860696", "elevation": "6204"}
+    ,{"id": "voncowenhoven", "team": "t33", "name": "The Grateful Gnome Sandwich Shoppe & Brewery", "municipality": "Denver", "latitude": "39.776463375116684", "longitude": "-105.04323698813197", "elevation": "5385"}
+    ,{"id": "Dolphindasher324", "team": "t24", "name": "Coal Mine Ave Brewing Company", "municipality": "Littleton", "latitude": "39.59636553791152", "longitude": "-105.10670394703736", "elevation": "5675"}
+    , {"id":"MiguelATorres", "team":"t34", "name": "Storm Peak Brewing Company", "municipality": "Steamboat Springs", "latitude": "40.5025", "longitude": "-106.8537", "elevation": "6696"}
+    ,{"id": "Logan-j90", "team": "t31", "name": "Crooked Beech Brewing Company", "municipality": "Loveland", "latitude" : "40.42417759999999", "longitude": "-105.07910884232837", "elevation": "4982"}
+    ,{"id":"patrick-kearney-2006","team":"t14","name":"Equinox Brewing","municipality":"Fort Collins","latitude":"40.5863","longitude":"-105.0757", "elevation":"4981"}
+    , {"id": "PokeDan0928", "team": "t38", "name": "Golden City Brewery", "municipality": "Golden", "latitude": "39.754542", "longitude": "-105.223433", "elevation": "5675"}
+    , {"id": "ZachatorCodes", "team": "t36", "name": "Soulcraft Brewing", "municipality": "Salida", "latitude": "38.5246", "longitude": "106.0060", "elevation": "7084"}
+    ,{"id": "Mark-Vanderwarf", "team": "t15", "name": "Reckless Brewing Company", "municipality": "Fruita", "latitude": "39.15932223407317", "longitude": "-108.73265664513815", "elevation": "4514"}
+    ,{"id": "Drew080808", "team": "t11", "name" : "Back Room Brewery", "municipality": "Louisville", "latitude": "39.952224", "longitude": "-105.164933", "elevation": "5495"}
+    ,{"id": "MatthewCast303", "team": "t36", "name": "Golden City Brewery", "municipality": "Golden", "latitude": "39.451707", "longitude": "-105.132538", "elevation": "5675"}
+    ,{"id": "CDSG1987", "team": "t20", "name": "Woods Boss Brewing", "municipality": "Denver", "latitude": "39.75082", "longitude": "104.98439", "elevation": "5220"}
+    ,{"id": "vampycat237", "team": "t39", "name": "Lumpy Ridge Brewing Company", "municipality": "Estes Park", "latitude": "40.369187628987106", "longitude": "-105.5046685473977", "elevation": "7608"}
+    ,{"id": "AntoniJParol", "team": "t32", "name": "Trail Life Brewing", "municipality": "Grand Junction", "latitude": "39.067704", "longitude": "-108.565414","elevation": "4612"}
+    ,{"id": "widelo", "team": "t37", "name": "Florence Brewing Company", "municipality": "Florence", "latitude": "38.388711", "longitude": "-105.118317", "elevation": "5187"}
+    ,{"id": "voideater27", "team": "t16", "name": "Zymos Brewing", "municipality": "Littleton", "latitude": "39.622986735544394", "longitude": "-105.0346116966493", "elevation": "5350"}
+    ,{"id": "random_vidzs", "team": "t29", "name": "Bulzomi Brewing Co", "municipality": "Eaton", "latitude": "40.527847", "longitude": "-104.711539", "elevation": "4826"}
+    ,{"id": "phntml", "team": "t26", "name": "Big Thompson Brewery", "municipality": "Loveland", "latitude": "40.40778242409759", "longitude": "-105.0754330332593", "elevation": "5025"}
+    ,{"id": "Zgourd19", "team": "t17", "name": "Tommyknocker Brewery & Pub", "municipality": "Idaho Springs", "latitude": "39.7420", "longitude": "-105.5142", "elevation": "7526"}
+    ,{"id": "codingissofunyay", "team": "t17", "name": "Black Shirt Brewing Company", "municipality": "Denver", "latitude": "39.7699", "longitude": "-104.9730", "elevation": "5220"} 
+    ,{"id": "hazelkatie28", "team": "t28", "name": "Main Street Brewery and Restaurant", "municipality": "Cortez", "latitude": "37.34842727430056", "longitude": "-108.58459327322866", "elevation": "6181"}
+]
+}
