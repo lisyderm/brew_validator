@@ -1,19 +1,23 @@
-Most Recent Run : 2026-09-06 13:05 MT
+Most Recent Run : 2026-09-06 13:35 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: None, Arizona follows Avondale, Arizona)
 ============================================================
 
 1. DUPLICATE MUNICIPALITIES (Same-User Duplicates vs. Multi-User Conflicts)
 --------------------------------------------------
-1. Emporia, Kansas [Duplicate Entry (Same User)]:
+1. Fresno, California [Duplicate Entry (Same User)]:
+   - Procreations Brewing Company | Team: t17, ID: jaylinwhite
+   - Procreations Brewing Company | Team: t17, ID: jaylinwhite
+
+2. Emporia, Kansas [Duplicate Entry (Same User)]:
    - Radius Brewing Company | Team: t36, ID: mburns45
    - Radius Brewing Company | Team: t36, ID: mburns45
 
-2. Lexington, Kentucky [Duplicate Entry (Same User)]:
+3. Lexington, Kentucky [Duplicate Entry (Same User)]:
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
    - Lexington Brewing & Distilling Co | Team: t17, ID: 31773
 
-3. Fargo, North Dakota [Duplicate Entry (Same User)]:
+4. Fargo, North Dakota [Duplicate Entry (Same User)]:
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
 
