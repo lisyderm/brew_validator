@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-06 15:00 MT
+Most Recent Run : 2026-09-06 15:30 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Botswana')
 ============================================================
@@ -147,25 +147,26 @@ List includes common name variants to match list entries through 8am Sept 3rd
 109. South Sudan
 110. Spain
 111. Sri Lanka
-112. Sweden
-113. Switzerland
-114. Tajikistan
-115. Thailand
-116. Trinidad and Tobago
-117. Tunisia
-118. Turkey
-119. Uganda
-120. Ukraine
-121. United Arab Emirates
-122. United Kingdom
-123. United Republic of Tanzania
-124. Uruguay
-125. Vanuatu
-126. Venezuela
-127. VietNam
-128. Wallis et Futuna
-129. Zambia
-130. Zimbabwe
+112. Suriname
+113. Sweden
+114. Switzerland
+115. Tajikistan
+116. Thailand
+117. Trinidad and Tobago
+118. Tunisia
+119. Turkey
+120. Uganda
+121. Ukraine
+122. United Arab Emirates
+123. United Kingdom
+124. United Republic of Tanzania
+125. Uruguay
+126. Vanuatu
+127. Venezuela
+128. VietNam
+129. Wallis et Futuna
+130. Zambia
+131. Zimbabwe
 
 
 4. AVAILABLE COUNTRIES
@@ -272,19 +273,18 @@ List includes common name variants to match list entries through 8am Sept 3rd
 100. South Georgia and the South Sandwich Islands
 101. State of Palestine
 102. Sudan
-103. Suriname
-104. Svalbard and Jan Mayen Islands
-105. Syrian Arab Republic
-106. Timor-Leste [East Timor]
-107. Togo
-108. Tokelau
-109. Tonga
-110. Turkmenistan
-111. Turks and Caicos Islands
-112. Tuvalu
-113. United States Minor Outlying Islands
-114. United States of America
-115. United States Virgin Islands
-116. Uzbekistan
-117. Western Sahara (disputed)
-118. Yemen
+103. Svalbard and Jan Mayen Islands
+104. Syrian Arab Republic
+105. Timor-Leste [East Timor]
+106. Togo
+107. Tokelau
+108. Tonga
+109. Turkmenistan
+110. Turks and Caicos Islands
+111. Tuvalu
+112. United States Minor Outlying Islands
+113. United States of America
+114. United States Virgin Islands
+115. Uzbekistan
+116. Western Sahara (disputed)
+117. Yemen
