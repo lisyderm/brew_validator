@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-06 19:30 MT
+Most Recent Run : 2026-09-06 20:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Botswana')
 ============================================================
@@ -31,6 +31,9 @@ List includes common name variants to match list entries through 8am Sept 3rd
 
 2. Moldova:
    - Team: t39, ID: LarryOrnelas
+
+3. Republic of Mail:
+   - Team: t20, ID: CDSG1987
 
 
 
