@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-07 09:30 MT
+Most Recent Run : 2026-09-07 10:00 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Fábrica de Cerveza Bucanero' (Country: '' follows 'Croatia')
 ============================================================
@@ -17,10 +17,6 @@ JSON Order Check: Order breaks down at 'Fábrica de Cerveza Bucanero' (Country: 
    - Team: t33, ID: nhartawan
    - Team: t16, ID: Bacolo12
    - Team: t33, ID: nhartawan
-
-4. Sweden:
-   - Team: t37, ID: GrantWooley
-   - Team: t37, ID: GrantWooley
 
 
 2. UNMATCHED JSON COUNTRIES (In wwbrews.json, but not in countries_un_geoscheme_COMMON_NAMES.csv)
