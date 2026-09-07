@@ -1,6 +1,6 @@
-Most Recent Run : 2026-09-06 21:00 MT
+Most Recent Run : 2026-09-06 21:30 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
-JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Bosnia & Herzegovina')
+JSON Order Check: Order breaks down at 'Fábrica de Cerveza Bucanero' (Country: '' follows 'Croatia')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
@@ -33,7 +33,7 @@ List includes common name variants to match list entries through 8am Sept 3rd
    - Team: t39, ID: LarryOrnelas
 
 3. Republic of Mail:
-   - Team: t20, ID: CDSG1987
+   - Team: t20, ID: CDSG2003
 
 
 
