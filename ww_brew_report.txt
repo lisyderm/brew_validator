@@ -1,6 +1,6 @@
-Most Recent Run : 2026-09-06 20:00 MT
+Most Recent Run : 2026-09-06 20:30 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
-JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Botswana')
+JSON Order Check: Order breaks down at 'Niebla Brewing Company' (Country: 'Bolivia' follows 'Bosnia & Herzegovina')
 ============================================================
 
 1. DUPLICATES (duplicated rows OR Multiple people per country)
