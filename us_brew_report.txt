@@ -1,4 +1,4 @@
-Most Recent Run : 2026-09-06 18:35 MT
+Most Recent Run : 2026-09-06 19:05 MT
 JSON Syntax Check (JSONLint): PASSED (Valid JSON)
 JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: None, Arizona follows Avondale, Arizona)
 ============================================================
@@ -9,11 +9,7 @@ JSON Order Check: Order breaks down at 'Dark Sky Brewing Company' (Location: Non
    - Procreations Brewing Company | Team: t17, ID: jaylinwhite
    - Procreations Brewing Company | Team: t17, ID: jaylinwhite
 
-2. Emporia, Kansas [Duplicate Entry (Same User)]:
-   - Radius Brewing Company | Team: t36, ID: mburns45
-   - Radius Brewing Company | Team: t36, ID: mburns45
-
-3. Fargo, North Dakota [Duplicate Entry (Same User)]:
+2. Fargo, North Dakota [Duplicate Entry (Same User)]:
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
    - Drekker Brewing Company | Team: t35, ID: Owen-Pendleton
 
